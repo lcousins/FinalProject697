@@ -3,3 +3,6 @@
 
 # ignore all files in ebird folder
 ebd_US-MA_relSep-2020/**
+
+#ignore MARC dataset 
+marc website public database 2020_10_27.csv
