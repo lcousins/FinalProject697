@@ -1,10 +1,13 @@
 #ignore .DS_Store file
 .DS_Store
 
-# ignore all files in ebird folder
+#ignore all files in ebird folder
 ebd_US-MA_relSep-2020/**
 
 #ignore MARC dataset 
 marc website public database 2020_10_27.csv
 
+#ignore geodatabase created by Lucy 10/31
+geocoded_marc.gdb/**
 
+unfiltered_dates/**
