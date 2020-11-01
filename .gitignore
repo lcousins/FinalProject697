@@ -6,3 +6,6 @@ ebd_US-MA_relSep-2020/**
 
 #ignore MARC dataset 
 marc website public database 2020_10_27.csv
+
+#ignore ebird metadata
+eBird_Basic_Dataset_Metadata_v1.12.pdf
