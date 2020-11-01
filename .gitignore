@@ -11,3 +11,5 @@ marc website public database 2020_10_27.csv
 geocoded_marc.gdb/**
 
 unfiltered_dates/**
+*.log
+*.recover
