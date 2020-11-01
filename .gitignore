@@ -13,3 +13,5 @@ geocoded_marc.gdb/**
 unfiltered_dates/**
 *.log
 *.recover
+
+eBird_filtered/chunks/**
