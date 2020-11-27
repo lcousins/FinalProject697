@@ -12,8 +12,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="VISUALIZER"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3002.49 861.751"
-#!   DOC_TOP_LEFT="-629.631 -548.999"
+#!   DOC_EXTENTS="3349.37 946.126"
+#!   DOC_TOP_LEFT="-629.631 -633.375"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -28,7 +28,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2020.1.1.1 (20200817 - Build 20614 - WIN64)"
-#!   LAST_SAVE_DATE="2020-11-27T11:14:29"
+#!   LAST_SAVE_DATE="2020-11-27T12:39:06"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -47,7 +47,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-628.131 406.254"
+#!   VIEW_POSITION="-628.131 293.753"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -78,10 +78,10 @@
 #!   GENERATE_FME_BUILD_NUM="20614"
 #!   COORDSYS=""
 #!   FEATURE_TYPES=""
-#!   MAX_FEATURES="500000"
+#!   MAX_FEATURES="5000000"
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
 #!   MIN_FEATURES=""
-#!   START_FEATURE="2000000"
+#!   START_FEATURE=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="ATTRIBUTE_READING"
@@ -663,8 +663,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="FeatureMerger"
 #!   VERSION="18"
-#!   POSITION="931.25931259312574 228.00112501125011"
-#!   BOUNDING_RECT="931.25931259312574 228.00112501125011 483 71"
+#!   POSITION="956.25956259562599 73.498749987499878"
+#!   BOUNDING_RECT="956.25956259562599 73.498749987499878 483 71"
 #!   ORDER="500000000000009"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -856,8 +856,8 @@
 #!   IDENTIFIER="9"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="1589.7596875968757 -8.3734687346873784"
-#!   BOUNDING_RECT="1589.7596875968757 -8.3734687346873784 783.10000000000002 71"
+#!   POSITION="1936.6381563815635 -27.123656236562397"
+#!   BOUNDING_RECT="1936.6381563815635 -27.123656236562397 783.10000000000002 71"
 #!   ORDER="500000000000011"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
@@ -884,8 +884,8 @@
 #!   IDENTIFIER="11"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="1589.7596875968757 -191.99887498874992"
-#!   BOUNDING_RECT="1589.7596875968757 -191.99887498874992 651.10000000000002 71"
+#!   POSITION="1989.013000130001 -226.3742187421874"
+#!   BOUNDING_RECT="1989.013000130001 -226.3742187421874 651.10000000000002 71"
 #!   ORDER="500000000000012"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -912,8 +912,8 @@
 #!   IDENTIFIER="13"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="1589.7596875968757 -346.50125001250012"
-#!   BOUNDING_RECT="1589.7596875968757 -346.50125001250012 695.10000000000002 71"
+#!   POSITION="2024.6381563815632 -393.3767187671877"
+#!   BOUNDING_RECT="2024.6381563815632 -393.3767187671877 695.10000000000002 71"
 #!   ORDER="500000000000013"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -940,8 +940,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="1620.2593125931257 160.5010070800781"
-#!   BOUNDING_RECT="1620.2593125931257 160.5010070800781 551.09999999999991 71"
+#!   POSITION="1989.013000130001 254.25194458945316"
+#!   BOUNDING_RECT="1989.013000130001 254.25194458945316 551.09999999999991 71"
 #!   ORDER="500000000000014"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -968,8 +968,8 @@
 #!   IDENTIFIER="19"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="1589.7596875968757 -477.99887498874978"
-#!   BOUNDING_RECT="1589.7596875968757 -477.99887498874978 619.10000000000002 71"
+#!   POSITION="2064.7644376443759 -562.37471874718744"
+#!   BOUNDING_RECT="2064.7644376443759 -562.37471874718744 619.10000000000002 71"
 #!   ORDER="500000000000017"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1063,8 +1063,8 @@
 #!   IDENTIFIER="21"
 #!   TYPE="StringPairReplacer"
 #!   VERSION="2"
-#!   POSITION="419.88185702718829 -298.87827718845733"
-#!   BOUNDING_RECT="419.88185702718829 -298.87827718845733 454 71"
+#!   POSITION="348.00613827000063 -286.50125001250012"
+#!   BOUNDING_RECT="348.00613827000063 -286.50125001250012 454 71"
 #!   ORDER="500000000000021"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1475,8 +1475,7 @@ CSV2_2_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-CSV2_1_MAX_FEATURES 500000
-CSV2_1_START_FEATURE_NUM 2000000
+CSV2_1_MAX_FEATURES 5000000
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
@@ -1504,13 +1503,13 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringPairReplacer_2_1e83faf9_b434_42b8_a8aa_8fac0a84b4f610_replace {} {    set attrs [split {common<space>name} { }];    set mapping [FME_DecodeText {"<u2019><space><apos>"}];    foreach attr $attrs {       set attrName [FME_DecodeText $attr];       FME_SetAttribute $attrName [string map $(casemac) $mapping [FME_GetAttribute $attrName]];    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringPairReplacer_2    INPUT  FEATURE_TYPE CSV_CSV2_2    OUTPUT FEATURE_TYPE StringPairReplacer_2_OUTPUT         @Tcl2(StringPairReplacer_2_1e83faf9_b434_42b8_a8aa_8fac0a84b4f610_replace)
+Tcl2 proc StringPairReplacer_2_1e83faf9_b434_42b8_a8aa_8fac0a84b4f614_replace {} {    set attrs [split {common<space>name} { }];    set mapping [FME_DecodeText {"<u2019><space><apos>"}];    foreach attr $attrs {       set attrName [FME_DecodeText $attr];       FME_SetAttribute $attrName [string map $(casemac) $mapping [FME_GetAttribute $attrName]];    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringPairReplacer_2    INPUT  FEATURE_TYPE CSV_CSV2_2    OUTPUT FEATURE_TYPE StringPairReplacer_2_OUTPUT         @Tcl2(StringPairReplacer_2_1e83faf9_b434_42b8_a8aa_8fac0a84b4f614_replace)
 # -------------------------------------------------------------------------
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringPairReplacer_269b2621_c972_462b_9fa7_9fb013b739f612_replace {} {    set attrs [split {COMMON<space>NAME} { }];    set mapping [FME_DecodeText {"<apos><space><apos><space><u2019><space><apos>"}];    foreach attr $attrs {       set attrName [FME_DecodeText $attr];       FME_SetAttribute $attrName [string map $(casemac) $mapping [FME_GetAttribute $attrName]];    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringPairReplacer    INPUT  FEATURE_TYPE CSV_CSV2_1    OUTPUT FEATURE_TYPE StringPairReplacer_OUTPUT         @Tcl2(StringPairReplacer_269b2621_c972_462b_9fa7_9fb013b739f612_replace)
+Tcl2 proc StringPairReplacer_269b2621_c972_462b_9fa7_9fb013b739f616_replace {} {    set attrs [split {COMMON<space>NAME} { }];    set mapping [FME_DecodeText {"<apos><space><apos><space><u2019><space><apos>"}];    foreach attr $attrs {       set attrName [FME_DecodeText $attr];       FME_SetAttribute $attrName [string map $(casemac) $mapping [FME_GetAttribute $attrName]];    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringPairReplacer    INPUT  FEATURE_TYPE CSV_CSV2_1    OUTPUT FEATURE_TYPE StringPairReplacer_OUTPUT         @Tcl2(StringPairReplacer_269b2621_c972_462b_9fa7_9fb013b739f616_replace)
 # -------------------------------------------------------------------------
 INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
 FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    FLUSH_WHEN_GROUPS_CHANGE No    INPUT REFERENCER FEATURE_TYPE StringPairReplacer_OUTPUT    INPUT REFERENCEE FEATURE_TYPE StringPairReplacer_2_OUTPUT    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>COMMON<space>NAME<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>common<space>name<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES NO    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    CLEANING_TOLERANCE <Unused>    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED    OUTPUT INCOMPLETE FEATURE_TYPE FeatureMerger_UNMERGED_REQUESTOR    OUTPUT REFERENCED FEATURE_TYPE FeatureMerger_USED_SUPPLIER    OUTPUT UNREFERENCED FEATURE_TYPE FeatureMerger_UNUSED_SUPPLIER    OUTPUT REJECTED FEATURE_TYPE FeatureMerger_<REJECTED>
