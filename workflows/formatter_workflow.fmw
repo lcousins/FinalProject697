@@ -1,13 +1,13 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\Users\lucyr\Documents\Databases\FinalProject697\workflows\formatter_workflow.fmw
-#              --SourceDataset_CSV2 "C:\Users\lucyr\Documents\Databases\FinalProject697\workflows\extra\geocoded_marc_csv.csv"
-#              --DestDataset_CSV2 "C:\Users\lucyr\Documents\Databases\FinalProject697\workflows\Liam's writers"
-#              --DestDataset_CSV2_2 "C:\Users\lucyr\Documents\Databases\FinalProject697\workflows\eBird_filtered"
+#        "C:\Program Files\FME\fme.exe" C:\Users\Asus\Documents\GitHub\FinalProject697\workflows\formatter_workflow.fmw
+#              --SourceDataset_CSV2 "C:\Users\Asus\Documents\GitHub\FinalProject697\workflows\extra\geocoded_marc_csv.csv"
+#              --DestDataset_CSV2 "C:\Users\Asus\Documents\GitHub\FinalProject697\workflows\Liam's writers"
+#              --DestDataset_CSV2_2 "C:\Users\Asus\Documents\GitHub\FinalProject697\workflows\eBird_filtered"
 #              --DestDataset_POSTGIS "697dd"
-#              --SourceDataset_CSV2_5 "C:\Users\lucyr\Documents\Databases\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv"
-#              --DestDataset_POSTGIS_4 "697dd"
+#              --SourceDataset_CSV2_5 "C:\Users\Asus\Documents\GitHub\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv"
+#              --DestDataset_POSTGIS_4 "ECO697"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,14 +16,14 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3958.48 2540.45"
-#!   DOC_TOP_LEFT="-191.582 -2264.95"
+#!   DOC_EXTENTS="3958.48 2363.36"
+#!   DOC_TOP_LEFT="-191.582 -2087.86"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="20614"
-#!   FME_DOCUMENT_GUID="2538b6d7-f789-4a73-b1c1-7b4f7f255400"
-#!   FME_DOCUMENT_PRIORGUID="73a2e588-0be4-4243-a24e-14b9e24f7757,e160b925-ee32-469b-88e4-984dc0f9928c,a2f59c2c-7507-44ba-b4d3-cdb0740a5c5e,5e814220-c224-40c3-a9ff-2db31b27a9ee,6eebedfa-2cf7-4c16-b738-654377395b5d,a3c653e5-4363-4114-90c4-faa9aa915536,ee12a23f-277e-4d3a-ad39-f3c7e98236d3,63ce59e2-85bf-4304-b890-8ea9e6f8a702,d34efd64-7e35-4040-8545-61a07e0d3f57,5b915803-2267-4295-8ea0-77b012d0b8ae"
+#!   FME_BUILD_NUM="20624"
+#!   FME_DOCUMENT_GUID="0384df89-d957-4029-9f4a-ba8185d2b6c1"
+#!   FME_DOCUMENT_PRIORGUID="73a2e588-0be4-4243-a24e-14b9e24f7757,e160b925-ee32-469b-88e4-984dc0f9928c,a2f59c2c-7507-44ba-b4d3-cdb0740a5c5e,5e814220-c224-40c3-a9ff-2db31b27a9ee,6eebedfa-2cf7-4c16-b738-654377395b5d,a3c653e5-4363-4114-90c4-faa9aa915536,ee12a23f-277e-4d3a-ad39-f3c7e98236d3,63ce59e2-85bf-4304-b890-8ea9e6f8a702,d34efd64-7e35-4040-8545-61a07e0d3f57,5b915803-2267-4295-8ea0-77b012d0b8ae,2538b6d7-f789-4a73-b1c1-7b4f7f255400,06ab780c-1286-4e90-86bf-1ca38efc8cb5"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,8 +31,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2020.1.1.1 (20200817 - Build 20614 - WIN64)"
-#!   LAST_SAVE_DATE="2020-11-30T10:55:55"
+#!   LAST_SAVE_BUILD="FME(R) 2020.1.2.1 (20200909 - Build 20624 - WIN64)"
+#!   LAST_SAVE_DATE="2020-11-30T12:12:52"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,10 +51,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1219.96 -1280.06"
+#!   VIEW_POSITION="-701.396 -868.064"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="52"
+#!   ZOOM_SCALE="72"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_type string fme_dataset string fme_color string fme_fill_color string multi_reader_keyword string fme_basename string csv_total_number_of_columns uint32 fme_secondary_axis string fme_text_string string multi_reader_id string csv_type string fme_sweep_angle string fme_feature_type string csv_skipped_line string csv_line_number uint64 fme_type string fme_text_size string fme_start_angle string csv_number_of_fields uint32 multi_reader_full_id string fme_rotation string fme_geometry string fme_primary_axis string"
+#!   EXPOSABLE_ATTRS="fme_color string multi_reader_id string fme_basename string csv_number_of_fields uint32 csv_skipped_line string fme_geometry string fme_rotation string fme_primary_axis string multi_reader_type string fme_text_size string csv_total_number_of_columns uint32 csv_type string fme_feature_type string fme_dataset string fme_fill_color string csv_line_number uint64 fme_secondary_axis string fme_type string fme_sweep_angle string multi_reader_keyword string fme_text_string string fme_start_angle string multi_reader_full_id string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -121,7 +121,7 @@
 #!   ROLE="READER"
 #!   FORMAT="CSV2"
 #!   DATASET="$(SourceDataset_CSV2_5)"
-#!   KEYWORD="CSV2_3"
+#!   KEYWORD="CSV2_2"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
 #!   ATTR_CASE="ANY"
@@ -129,7 +129,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="multi_reader_type string fme_dataset string fme_color string fme_fill_color string multi_reader_keyword string fme_basename string csv_total_number_of_columns uint32 fme_secondary_axis string fme_text_string string multi_reader_id string csv_type string fme_sweep_angle string fme_feature_type string csv_skipped_line string csv_line_number uint64 fme_type string fme_text_size string fme_start_angle string csv_number_of_fields uint32 multi_reader_full_id string fme_rotation string fme_geometry string fme_primary_axis string"
+#!   EXPOSABLE_ATTRS="fme_color string multi_reader_id string fme_basename string csv_number_of_fields uint32 csv_skipped_line string fme_geometry string fme_rotation string fme_primary_axis string multi_reader_type string fme_text_size string csv_total_number_of_columns uint32 csv_type string fme_feature_type string fme_dataset string fme_fill_color string csv_line_number uint64 fme_secondary_axis string fme_type string fme_sweep_angle string multi_reader_keyword string fme_text_string string fme_start_angle string multi_reader_full_id string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -139,7 +139,7 @@
 #!   DATASET_TYPE="FILEDIR"
 #!   FTTR_TYPE="LISTBOX_ENCODED"
 #!   GENERATE_FME_BUILD_NUM="20614"
-#!   COORDSYS=""
+#!   COORDSYS="EPSG:4326"
 #!   FEATURE_TYPES=""
 #!   MAX_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
@@ -180,7 +180,7 @@
 #!   ROLE="WRITER"
 #!   FORMAT="CSV2"
 #!   DATASET="$(DestDataset_CSV2)"
-#!   KEYWORD="CSV2_4"
+#!   KEYWORD="CSV2_3"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="255"
 #!   ATTR_CASE="ANY"
@@ -188,7 +188,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="csv_existing_file_handling Yes csv_write_field_names firstrow"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis string fme_primary_axis string fme_fill_color string fme_text_string string fme_sweep_angle string fme_dataset string csv_type string fme_color string fme_rotation string fme_start_angle string fme_geometry string fme_feature_type string fme_basename string fme_text_size string"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_dataset string fme_text_size string fme_rotation string fme_text_string string fme_secondary_axis string fme_type string fme_color string fme_primary_axis string fme_geometry string fme_fill_color string fme_basename string csv_type string fme_start_angle string fme_sweep_angle string"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP csv_dataset_group csv_existing_file_handling Dataset&quot; &quot;&quot; &quot;GUI CHOICE csv_existing_file_handling Yes%No Overwrite Existing File&quot; Yes &quot;GUI OPTIONAL NAMEDGROUP csv_fields_group csv_write_field_names Fields&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE csv_write_field_names If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no Write Field Names Row&quot; firstrow "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
@@ -240,7 +240,7 @@
 #!   ROLE="WRITER"
 #!   FORMAT="CSV2"
 #!   DATASET="$(DestDataset_CSV2_2)"
-#!   KEYWORD="CSV2_5"
+#!   KEYWORD="CSV2_4"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="255"
 #!   ATTR_CASE="ANY"
@@ -248,7 +248,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="csv_existing_file_handling Yes csv_write_field_names firstrow"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis string fme_primary_axis string fme_fill_color string fme_text_string string fme_sweep_angle string fme_dataset string csv_type string fme_color string fme_rotation string fme_start_angle string fme_geometry string fme_feature_type string fme_basename string fme_text_size string"
+#!   EXPOSABLE_ATTRS="fme_feature_type string fme_dataset string fme_text_size string fme_rotation string fme_text_string string fme_secondary_axis string fme_type string fme_color string fme_primary_axis string fme_geometry string fme_fill_color string fme_basename string csv_type string fme_start_angle string fme_sweep_angle string"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP csv_dataset_group csv_existing_file_handling Dataset&quot; &quot;&quot; &quot;GUI CHOICE csv_existing_file_handling Yes%No Overwrite Existing File&quot; Yes &quot;GUI OPTIONAL NAMEDGROUP csv_fields_group csv_write_field_names Fields&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE csv_write_field_names If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no Write Field Names Row&quot; firstrow "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
@@ -308,7 +308,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_color char(50) fme_fill_color char(50) fme_basename char(50) fme_secondary_axis float8 postgis_collection_id int4 fme_text_string char(50) fme_sweep_angle float8 fme_db_operation char(8) fme_feature_type char(50) fme_type char(50) fme_text_size float8 postgis_type char(50) fme_start_angle float8 postgis_collection_part_id int4 fme_rotation float8 fme_geometry char(50) fme_primary_axis float8"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_basename char(50) fme_geometry char(50) fme_rotation float8 fme_db_operation char(8) fme_primary_axis float8 fme_text_size float8 fme_feature_type char(50) fme_dataset char(50) fme_fill_color char(50) postgis_collection_part_id int4 postgis_collection_id int4 fme_secondary_axis float8 fme_type char(50) fme_sweep_angle float8 fme_text_string char(50) postgis_type char(50) fme_start_angle float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group,mie_pack%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -366,7 +366,7 @@
 #!   ROLE="WRITER"
 #!   FORMAT="POSTGIS"
 #!   DATASET="$(DestDataset_POSTGIS_4)"
-#!   KEYWORD="POSTGIS_3"
+#!   KEYWORD="POSTGIS_2"
 #!   MULTI_GEOM_ALLOWED="true"
 #!   ATTR_MAX_LENGTH="63"
 #!   ATTR_CASE="LOWER"
@@ -374,7 +374,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_color char(50) fme_fill_color char(50) fme_basename char(50) fme_secondary_axis float8 postgis_collection_id int4 fme_text_string char(50) fme_sweep_angle float8 fme_db_operation char(8) fme_feature_type char(50) fme_type char(50) fme_text_size float8 fme_start_angle float8 postgis_type char(50) postgis_collection_part_id int4 fme_rotation float8 fme_geometry char(50) fme_primary_axis float8"
+#!   EXPOSABLE_ATTRS="fme_color char(50) fme_basename char(50) fme_geometry char(50) fme_rotation float8 fme_db_operation char(8) fme_primary_axis float8 fme_text_size float8 fme_feature_type char(50) fme_dataset char(50) fme_fill_color char(50) postgis_collection_part_id int4 postgis_collection_id int4 fme_secondary_axis float8 fme_type char(50) fme_sweep_angle float8 fme_text_string char(50) postgis_type char(50) fme_start_angle float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group,mie_pack%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -653,204 +653,6 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="bool"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="varchar(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="xml"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="json"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="jsonb"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="numeric(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="numeric(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="oid"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="serial"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float4"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="money"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float8"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="time"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="timetz"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="timestamp"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="timestamptz"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="uuid"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="bit(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="varbit"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="varbit(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="string"
 #!   FME_TYPE="fme_buffer"
 #!   FORMAT="CSV2"
@@ -1071,6 +873,204 @@
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="CSV2"
 #! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bool"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="numeric(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="numeric(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oid"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="serial"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float4"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="money"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float8"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timetz"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uuid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bit(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varbit"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varbit(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGIS"
+#! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
@@ -1171,6 +1171,108 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_feature_table"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="fme_no_map"
+#!   FME_TYPE="fme_no_map"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="csv_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="CSV2"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="csv_none"
 #!   FME_TYPE="fme_point_cloud"
 #!   FORMAT="CSV2"
@@ -1331,108 +1433,6 @@
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="POSTGIS"
 #! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_feature_table"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_point"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="fme_no_map"
-#!   FME_TYPE="fme_no_map"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="CSV2"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="csv_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="CSV2"
-#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -1483,7 +1483,7 @@
 #!   BOUNDING_RECT="3100 -124.5 485.00106825772946 71"
 #!   ORDER="500000000000034"
 #!   COLLAPSED="true"
-#!   KEYWORD="CSV2_4"
+#!   KEYWORD="CSV2_3"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
@@ -1518,7 +1518,7 @@
 #!   BOUNDING_RECT="3242.7215011901876 -1092.016839085627 461.00106825772946 71"
 #!   ORDER="500000000000047"
 #!   COLLAPSED="false"
-#!   KEYWORD="CSV2_5"
+#!   KEYWORD="CSV2_4"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="1"
@@ -1526,13 +1526,11 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="COMMON NAME" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="SCIENTIFIC NAME" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="OBSERVATION COUNT" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="STATE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="COUNTY" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="LOCALITY" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="LATITUDE" ATTR_TYPE="y_coordinate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="LONGITUDE" ATTR_TYPE="x_coordinate" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="OBSERVATION DATE" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="OBSERVER ID" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_existing_file_handling" PARM_VALUE="Yes"/>
 #!     <DEFLINE_PARM PARM_NAME="csv_fields_group" PARM_VALUE=""/>
@@ -1546,16 +1544,16 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="45"
 #!   FEAT_GEOMTYPE="csv_none csv_point"
-#!   POSITION="-90.1050677173439 -1492.8250782507823"
-#!   BOUNDING_RECT="-90.1050677173439 -1492.8250782507823 454 71"
+#!   POSITION="-93.577324662135595 -1492.8250782507823"
+#!   BOUNDING_RECT="-93.577324662135595 -1492.8250782507823 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
-#!   KEYWORD="CSV2_3"
+#!   KEYWORD="CSV2_2"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   HIDDEN_USER_ATTRS=""
+#!   HIDDEN_USER_ATTRS="COUNTY&lt;space&gt;CODE AGE&lt;solidus&gt;SEX ATLAS&lt;space&gt;BLOCK PROTOCOL&lt;space&gt;TYPE CATEGORY EFFORT&lt;space&gt;AREA&lt;space&gt;HA COUNTRY BREEDING&lt;space&gt;BIRD&lt;space&gt;ATLAS&lt;space&gt;CODE GLOBAL&lt;space&gt;UNIQUE&lt;space&gt;IDENTIFIER BREEDING&lt;space&gt;BIRD&lt;space&gt;ATLAS&lt;space&gt;CATEGORY BCR&lt;space&gt;CODE col46 TIME&lt;space&gt;OBSERVATIONS&lt;space&gt;STARTED PROTOCOL&lt;space&gt;CODE REASON PROJECT&lt;space&gt;CODE IBA&lt;space&gt;CODE SUBSPECIES&lt;space&gt;COMMON&lt;space&gt;NAME HAS&lt;space&gt;MEDIA COUNTRY&lt;space&gt;CODE STATE GROUP&lt;space&gt;IDENTIFIER EFFORT&lt;space&gt;DISTANCE&lt;space&gt;KM STATE&lt;space&gt;CODE ALL&lt;space&gt;SPECIES&lt;space&gt;REPORTED SUBSPECIES&lt;space&gt;SCIENTIFIC&lt;space&gt;NAME LOCALITY&lt;space&gt;TYPE NUMBER&lt;space&gt;OBSERVERS TAXONOMIC&lt;space&gt;ORDER LAST&lt;space&gt;EDITED&lt;space&gt;DATE OBSERVER&lt;space&gt;ID REVIEWED DURATION&lt;space&gt;MINUTES USFWS&lt;space&gt;CODE LOCALITY&lt;space&gt;ID APPROVED"
 #!   READ_SELECT_ATTRS="true"
-#!   MERGE_FILTER=""
+#!   MERGE_FILTER="*"
 #!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
 #!   MERGE_FILTER_CASE_SENSITIVE="false"
 #!   DYNAMIC_SCHEMA="false"
@@ -1617,62 +1615,26 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="33"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="3203.6586105612814 -2193.9466572443498"
-#!   BOUNDING_RECT="3203.6586105612814 -2193.9466572443498 430 71"
+#!   POSITION="3311.298575849823 -2016.861553059975"
+#!   BOUNDING_RECT="3311.298575849823 -2016.861553059975 430 71"
 #!   ORDER="500000000000072"
 #!   COLLAPSED="false"
-#!   KEYWORD="POSTGIS_3"
+#!   KEYWORD="POSTGIS_2"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
-#!     <FEAT_ATTRIBUTE ATTR_NAME="global_unique_identifier" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="last_edited_date" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="taxonomic_order" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="category" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="common_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="scientific_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="subspecies_common_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="subspecies_scientific_name" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="observation_count" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="breeding_bird_atlas_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="breeding_bird_atlas_category" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="age_sex" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="country" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="country_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="state" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="state_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="county" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="county_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="iba_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="bcr_code" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="usfws_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="atlas_block" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="locality" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="locality_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="locality_type" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="latitude" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="longitude" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="observation_date" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="time_observations_started" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="observer_id" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="sampling_event_identifier" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="protocol_type" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="protocol_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="project_code" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="duration_minutes" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="effort_distance_km" ATTR_TYPE="float4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="effort_area_ha" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="number_observers" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="all_species_reported" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="group_identifier" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="has_media" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="approved" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="reviewed" ATTR_TYPE="int2" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="reason" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="trip_comments" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="species_comments" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
-#!     <FEAT_ATTRIBUTE ATTR_NAME="col46" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="common_name00" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_advanced_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="fme_configuration_common_group" PARM_VALUE=""/>
@@ -1697,9 +1659,9 @@
 #! <FMESERVER>
 #! <READER_DATASETS>
 #! <DATASET
-#!   NAME="CSV2_3"
-#!   OVERRIDE="-CSV2_3_DATASET"
-#!   DATASET="CSV2_3/ebird_filtered_with_apostrophes.csv"
+#!   NAME="CSV2_2"
+#!   OVERRIDE="-CSV2_2_DATASET"
+#!   DATASET="CSV2_2/ebird_filtered_with_apostrophes.csv"
 #! />
 #! <DATASET
 #!   NAME="CSV2_1"
@@ -1709,14 +1671,14 @@
 #! </READER_DATASETS>
 #! <WRITER_DATASETS>
 #! <DATASET
-#!   NAME="CSV2_5"
-#!   OVERRIDE="-CSV2_5_DATASET"
-#!   DATASET="CSV2_5/eBird_filtered"
-#! />
-#! <DATASET
 #!   NAME="CSV2_4"
 #!   OVERRIDE="-CSV2_4_DATASET"
-#!   DATASET="CSV2_4/Liam&apos;s writers"
+#!   DATASET="CSV2_4/eBird_filtered"
+#! />
+#! <DATASET
+#!   NAME="CSV2_3"
+#!   OVERRIDE="-CSV2_3_DATASET"
+#!   DATASET="CSV2_3/Liam&apos;s writers"
 #! />
 #! </WRITER_DATASETS>
 #! </FMESERVER>
@@ -1743,12 +1705,12 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_CSV2_5 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files|* Source CSV (Comma Separated Value) File(s):"
-#!   DEFAULT_VALUE="C:\Users\lucyr\Documents\Databases\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv"
+#!   DEFAULT_VALUE="C:\Users\Asus\Documents\GitHub\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_4 FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="697dd"
+#!   DEFAULT_VALUE="ECO697"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -1921,8 +1883,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="DateTimeConverter"
 #!   VERSION="3"
-#!   POSITION="1484.3903439034395 -1542.016839085627"
-#!   BOUNDING_RECT="1484.3903439034395 -1542.016839085627 470.00106825772946 71"
+#!   POSITION="802.31913494430228 -1492.8250782507823"
+#!   BOUNDING_RECT="802.31913494430228 -1492.8250782507823 470.00106825772946 71"
 #!   ORDER="500000000000036"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1930,103 +1892,31 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="GLOBAL UNIQUE IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LAST EDITED DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TAXONOMIC ORDER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION COUNT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AGE/SEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="STATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="STATE CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COUNTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTY CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="IBA CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BCR CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="USFWS CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ATLAS BLOCK" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LOCALITY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LATITUDE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LONGITUDE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIME OBSERVATIONS STARTED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="OBSERVER ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SAMPLING EVENT IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROJECT CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DURATION MINUTES" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT DISTANCE KM" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT AREA HA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="NUMBER OBSERVERS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ALL SPECIES REPORTED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GROUP IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HAS MEDIA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="APPROVED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="REVIEWED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="REASON" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TRIP COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SPECIES COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="col46" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="common name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="GLOBAL UNIQUE IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="LAST EDITED DATE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TAXONOMIC ORDER" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION COUNT" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="AGE/SEX" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="STATE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="STATE CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="COUNTY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTY CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="IBA CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="BCR CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="USFWS CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ATLAS BLOCK" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="LOCALITY" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY TYPE" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="LATITUDE" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="LONGITUDE" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION DATE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="TIME OBSERVATIONS STARTED" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="OBSERVER ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SAMPLING EVENT IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL TYPE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="PROJECT CODE" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="DURATION MINUTES" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT DISTANCE KM" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT AREA HA" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="NUMBER OBSERVERS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ALL SPECIES REPORTED" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GROUP IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="HAS MEDIA" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="APPROVED" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="REVIEWED" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="REASON" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TRIP COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SPECIES COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="col46" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="common name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="OBSERVATION&lt;space&gt;DATE"/>
@@ -2086,61 +1976,25 @@
 #!   IDENTIFIER="21"
 #!   TYPE="NullAttributeMapper"
 #!   VERSION="2"
-#!   POSITION="2179.2742121288702 -1630.1421203384396"
-#!   BOUNDING_RECT="2179.2742121288702 -1630.1421203384396 479.00106825772946 71"
+#!   POSITION="1536.9066773424111 -1794.9114324476579"
+#!   BOUNDING_RECT="1536.9066773424111 -1794.9114324476579 479.00106825772946 71"
 #!   ORDER="500000000000042"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="20614"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <XFORM_ATTR ATTR_NAME="GLOBAL UNIQUE IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LAST EDITED DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TAXONOMIC ORDER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES COMMON NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SUBSPECIES SCIENTIFIC NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION COUNT" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BREEDING BIRD ATLAS CATEGORY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="AGE/SEX" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTRY CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="STATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="STATE CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="COUNTY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="COUNTY CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="IBA CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="BCR CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="USFWS CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ATLAS BLOCK" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LOCALITY" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="LOCALITY TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LATITUDE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="LONGITUDE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="OBSERVATION DATE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="TIME OBSERVATIONS STARTED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="OBSERVER ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SAMPLING EVENT IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL TYPE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROTOCOL CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PROJECT CODE" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DURATION MINUTES" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT DISTANCE KM" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="EFFORT AREA HA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="NUMBER OBSERVERS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ALL SPECIES REPORTED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GROUP IDENTIFIER" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HAS MEDIA" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="APPROVED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="REVIEWED" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="REASON" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TRIP COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SPECIES COMMENTS" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="col46" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="common name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="Selected Attributes"/>
 #!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="COMMON&lt;space&gt;NAME COUNTY LATITUDE LONGITUDE OBSERVATION&lt;space&gt;DATE"/>
@@ -2431,25 +2285,88 @@
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#!   IDENTIFIER="131118"
+#!   IDENTIFIER="1245230"
 #!   SOURCE_NODE="21"
 #!   TARGET_NODE="33"
-#!   SOURCE_PORT_DESC="ao 0 25 OUTPUT"
-#!   TARGET_PORT_DESC="25"
+#!   SOURCE_PORT_DESC="ao 0 6 OUTPUT"
+#!   TARGET_PORT_DESC="6"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="262190"
+#!   IDENTIFIER="1048622"
 #!   SOURCE_NODE="21"
 #!   TARGET_NODE="33"
-#!   SOURCE_PORT_DESC="ao 0 47 OUTPUT"
+#!   SOURCE_PORT_DESC="ao 0 2 OUTPUT"
+#!   TARGET_PORT_DESC="2"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1572910"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 9 OUTPUT"
+#!   TARGET_PORT_DESC="9"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1310766"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 10 OUTPUT"
+#!   TARGET_PORT_DESC="10"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1441838"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 7 OUTPUT"
+#!   TARGET_PORT_DESC="7"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="852014"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 3 OUTPUT"
+#!   TARGET_PORT_DESC="3"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="917550"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 1 OUTPUT"
+#!   TARGET_PORT_DESC="1"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1114158"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 0 OUTPUT"
+#!   TARGET_PORT_DESC="0"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1376302"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 4 OUTPUT"
 #!   TARGET_PORT_DESC="4"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="196654"
+#!   IDENTIFIER="983086"
 #!   SOURCE_NODE="21"
 #!   TARGET_NODE="33"
-#!   SOURCE_PORT_DESC="ao 0 26 OUTPUT"
-#!   TARGET_PORT_DESC="26"
+#!   SOURCE_PORT_DESC="ao 0 11 OUTPUT"
+#!   TARGET_PORT_DESC="11"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1179694"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 5 OUTPUT"
+#!   TARGET_PORT_DESC="5"
+#! />
+#! <ATTR_LINK
+#!   IDENTIFIER="1507374"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="33"
+#!   SOURCE_PORT_DESC="ao 0 8 OUTPUT"
+#!   TARGET_PORT_DESC="8"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -2459,7 +2376,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 37
-GUI IGNORE SourceDataset_CSV2_1,CSV2_IN_FIELDS_GROUP_CSV2_1,CSV2_IN_DELIMITER_CSV2_1,CSV2_IN_FIELD_NAMES_LINE_CSV2_1,CSV2_IN_DATA_START_LINE_CSV2_1,CSV2_IN_ADVANCED_GROUP_CSV2_1,CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_1,CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_1,CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_1,CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1,CSV2_IN_FIELD_NAMES_GROUP_CSV2_1,CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_1,CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_1,CSV2_IN_FIELD_VALUES_GROUP_CSV2_1,CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_1,CSV2_IN_ENCODING_GROUP_CSV2_1,CSV2_IN_ENCODING_CSV2_1,CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_1,CSV2_IN_SKIPPED_LINES_GROUP_CSV2_1,CSV2_IN_READ_SKIPPED_LINES_CSV2_1,CSV2_IN_NETWORK_AUTHENTICATION_CSV2_1,SourceDataset_CSV2_3,CSV2_IN_FIELDS_GROUP_CSV2_3,CSV2_IN_DELIMITER_CSV2_3,CSV2_IN_FIELD_NAMES_LINE_CSV2_3,CSV2_IN_DATA_START_LINE_CSV2_3,CSV2_IN_ADVANCED_GROUP_CSV2_3,CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_3,CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_3,CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_3,CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3,CSV2_IN_FIELD_NAMES_GROUP_CSV2_3,CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_3,CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_3,CSV2_IN_FIELD_VALUES_GROUP_CSV2_3,CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_3,CSV2_IN_ENCODING_GROUP_CSV2_3,CSV2_IN_ENCODING_CSV2_3,CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_3,CSV2_IN_SKIPPED_LINES_GROUP_CSV2_3,CSV2_IN_READ_SKIPPED_LINES_CSV2_3,CSV2_IN_NETWORK_AUTHENTICATION_CSV2_3,DestDataset_CSV2_4,CSV2_OUT_DATASET_GROUP_CSV2_4,CSV2_OUT_EXTENSION_CSV2_4,CSV2_OUT_FIELDS_GROUP_CSV2_4,CSV2_OUT_DELIMITER_CSV2_4,CSV2_OUT_ENCODING_GROUP_CSV2_4,CSV2_OUT_ENCODING_CSV2_4,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_4,CSV2_OUT_ADVANCED_GROUP_CSV2_4,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_4,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_4,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_4,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_4,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_4,CSV2_OUT_ROW_TERMINATION_CSV2_4,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_4,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_4,DestDataset_CSV2_5,CSV2_OUT_DATASET_GROUP_CSV2_5,CSV2_OUT_EXTENSION_CSV2_5,CSV2_OUT_FIELDS_GROUP_CSV2_5,CSV2_OUT_DELIMITER_CSV2_5,CSV2_OUT_ENCODING_GROUP_CSV2_5,CSV2_OUT_ENCODING_CSV2_5,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_5,CSV2_OUT_ADVANCED_GROUP_CSV2_5,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_5,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_5,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_5,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_5,CSV2_OUT_ROW_TERMINATION_CSV2_5,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_5,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_5,DestDataset_POSTGIS_1,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_OUT_ADVANCED_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1,DestDataset_POSTGIS_3,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_3,POSTGIS_OUT_ADVANCED_POSTGIS_3,POSTGIS_OUT_BULK_COPY_POSTGIS_3,POSTGIS_OUT_START_TRANSACTION_POSTGIS_3,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_3,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_3,POSTGIS_OUT_BEGIN_SQL_POSTGIS_3,POSTGIS_OUT_END_SQL_POSTGIS_3
+GUI IGNORE SourceDataset_CSV2_1,CSV2_IN_FIELDS_GROUP_CSV2_1,CSV2_IN_DELIMITER_CSV2_1,CSV2_IN_FIELD_NAMES_LINE_CSV2_1,CSV2_IN_DATA_START_LINE_CSV2_1,CSV2_IN_ADVANCED_GROUP_CSV2_1,CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_1,CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_1,CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_1,CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_1,CSV2_IN_FIELD_NAMES_GROUP_CSV2_1,CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_1,CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_1,CSV2_IN_FIELD_VALUES_GROUP_CSV2_1,CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_1,CSV2_IN_ENCODING_GROUP_CSV2_1,CSV2_IN_ENCODING_CSV2_1,CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_1,CSV2_IN_SKIPPED_LINES_GROUP_CSV2_1,CSV2_IN_READ_SKIPPED_LINES_CSV2_1,CSV2_IN_NETWORK_AUTHENTICATION_CSV2_1,SourceDataset_CSV2_2,CSV2_IN_FIELDS_GROUP_CSV2_2,CSV2_IN_DELIMITER_CSV2_2,CSV2_IN_FIELD_NAMES_LINE_CSV2_2,CSV2_IN_DATA_START_LINE_CSV2_2,CSV2_IN_ADVANCED_GROUP_CSV2_2,CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_2,CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_2,CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_2,CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2,CSV2_IN_FIELD_NAMES_GROUP_CSV2_2,CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_2,CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_2,CSV2_IN_FIELD_VALUES_GROUP_CSV2_2,CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_2,CSV2_IN_ENCODING_GROUP_CSV2_2,CSV2_IN_ENCODING_CSV2_2,CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_2,CSV2_IN_SKIPPED_LINES_GROUP_CSV2_2,CSV2_IN_READ_SKIPPED_LINES_CSV2_2,CSV2_IN_NETWORK_AUTHENTICATION_CSV2_2,DestDataset_CSV2_3,CSV2_OUT_DATASET_GROUP_CSV2_3,CSV2_OUT_EXTENSION_CSV2_3,CSV2_OUT_FIELDS_GROUP_CSV2_3,CSV2_OUT_DELIMITER_CSV2_3,CSV2_OUT_ENCODING_GROUP_CSV2_3,CSV2_OUT_ENCODING_CSV2_3,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_3,CSV2_OUT_ADVANCED_GROUP_CSV2_3,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_3,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_3,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_3,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3,CSV2_OUT_ROW_TERMINATION_CSV2_3,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_3,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_3,DestDataset_CSV2_4,CSV2_OUT_DATASET_GROUP_CSV2_4,CSV2_OUT_EXTENSION_CSV2_4,CSV2_OUT_FIELDS_GROUP_CSV2_4,CSV2_OUT_DELIMITER_CSV2_4,CSV2_OUT_ENCODING_GROUP_CSV2_4,CSV2_OUT_ENCODING_CSV2_4,CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_4,CSV2_OUT_ADVANCED_GROUP_CSV2_4,CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_4,CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_4,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_4,CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_4,CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_4,CSV2_OUT_ROW_TERMINATION_CSV2_4,CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_4,CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_4,DestDataset_POSTGIS_1,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_OUT_ADVANCED_POSTGIS_1,POSTGIS_OUT_BULK_COPY_POSTGIS_1,POSTGIS_OUT_START_TRANSACTION_POSTGIS_1,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_1,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_1,POSTGIS_OUT_BEGIN_SQL_POSTGIS_1,POSTGIS_OUT_END_SQL_POSTGIS_1,DestDataset_POSTGIS_2,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_OUT_ADVANCED_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2
 DEFAULT_MACRO SourceDataset_CSV2 $(FME_MF_DIR)extra\geocoded_marc_csv.csv
 GUI MULTIFILE SourceDataset_CSV2 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files|* Source CSV (Comma Separated Value) File(s):
 DEFAULT_MACRO DestDataset_CSV2 $(FME_MF_DIR)Liam's writers
@@ -2468,9 +2385,9 @@ DEFAULT_MACRO DestDataset_CSV2_2 $(FME_MF_DIR)eBird_filtered
 GUI DIRNAME DestDataset_CSV2_2 Destination CSV (Comma Separated Value) Folder:
 DEFAULT_MACRO DestDataset_POSTGIS 697dd
 GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO SourceDataset_CSV2_5 C:\Users\lucyr\Documents\Databases\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv
+DEFAULT_MACRO SourceDataset_CSV2_5 C:\Users\Asus\Documents\GitHub\FinalProject697\eBird_filtered\ebird_filtered_with_apostrophes.csv
 GUI MULTIFILE SourceDataset_CSV2_5 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|All_Files|* Source CSV (Comma Separated Value) File(s):
-DEFAULT_MACRO DestDataset_POSTGIS_4 697dd
+DEFAULT_MACRO DestDataset_POSTGIS_4 ECO697
 GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_4 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 INCLUDE [ if {{$(SourceDataset_CSV2)} == {}} { puts_real {Parameter 'SourceDataset_CSV2' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_CSV2)} == {}} { puts_real {Parameter 'DestDataset_CSV2' must be given a value.}; exit 1; }; ]
@@ -2535,19 +2452,19 @@ MULTI_READER_FORMAT{0} CSV2
 MULTI_READER_KEYWORD{0} CSV2_1
 MULTI_READER_GEN_DIRECTIVES{0} FEATURE_TYPE_NAME,FORMAT_NAME,DELIMITER,auto,FIELD_NAMES_LINE,1,DATA_START_LINE,2,SKIP_DUPLICATE_DELIMITERS,No,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,TRIM_FIELD_NAME_QUALIFIERS,Yes,CASE_SENSITIVE_FIELD_NAMES,Yes,ENFORCE_STRICT_SCHEMA,No,TRIM_FIELD_VALUE_QUALIFIERS,Yes,ENCODING,windows-1252,PRESERVE_SOURCE_ENCODING,No,READ_SKIPPED_LINES,No,SCAN_MAX_ROWS,10000,SCAN_TYPES,Yes,SCAN_ADDITIONAL_FIELDS,No,USE_CUSTOM_SCHEMA,NO,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,CHUNK_SIZE,100000,SourceDataset,C:<backslash>Users<backslash>lucyr<backslash>Documents<backslash>Databases<backslash>FinalProject697<backslash>geocoded_marc_csv.csv,FME_GEOMETRY_HANDLING,Enhanced
 MULTI_READER_TYPE{1} CSV2
-MULTI_READER_KEYWORD{1} CSV2_3
+MULTI_READER_KEYWORD{1} CSV2_2
 MULTI_READER_GEN_DIRECTIVES{1} FIELD_VALUES_GROUP,,FIELD_NAMES_LINE,1,SCHEMA_GENERATION_GROUP,,CHUNK_SIZE,100000,CSV2_EXPOSE_FORMAT_ATTRS,,USE_CUSTOM_SCHEMA,NO,DATASET_GROUP,,FIELD_QUALIFIER_CHARACTER,<lt>quote<gt>,TRIM_FIELD_NAME_QUALIFIERS,Yes,PREVIEW_PLACEHOLDER,,FIELD_NAMES_GROUP,,DELIMITER,auto,ENCODING,windows-1252,TRIM_FIELD_VALUE_QUALIFIERS,Yes,FIELD_QUALIFIER_ESCAPE_CHARACTER,<lt>quote<gt>,SCAN_MAX_ROWS,10000,ENFORCE_STRICT_SCHEMA,No,SKIP_DUPLICATE_DELIMITERS,No,EXPOSE_ATTRS_GROUP,,FIELD_SEPARATION_GROUP,,_MERGE_SCHEMAS,YES,SKIPPED_LINES_GROUP,,SCAN_TYPES,Yes,PRESERVE_SOURCE_ENCODING,No,FEATURE_TYPE_NAME,FORMAT_NAME,DATA_START_LINE,2,ADVANCED_GROUP,,READ_SKIPPED_LINES,No,ENCODING_GROUP,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,CASE_SENSITIVE_FIELD_NAMES,Yes,SCHEMA,,FIELDS_GROUP,,SCAN_ADDITIONAL_FIELDS,No
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
 MULTI_WRITER_TYPE{0} CSV2
-MULTI_WRITER_KEYWORD{0} CSV2_4
+MULTI_WRITER_KEYWORD{0} CSV2_3
 MULTI_WRITER_TYPE{1} CSV2
-MULTI_WRITER_KEYWORD{1} CSV2_5
+MULTI_WRITER_KEYWORD{1} CSV2_4
 MULTI_WRITER_TYPE{2} POSTGIS
 MULTI_WRITER_KEYWORD{2} POSTGIS_1
 MULTI_WRITER_TYPE{3} POSTGIS
-MULTI_WRITER_KEYWORD{3} POSTGIS_3
+MULTI_WRITER_KEYWORD{3} POSTGIS_2
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "CSV2_1"
@@ -2647,9 +2564,9 @@ CSV2_1_GENERATE_FME_BUILD_NUM 20614
 CSV2_1_DATASET "$(SourceDataset_CSV2_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "CSV2_3"
+MACRO WB_KEYWORD "CSV2_2"
 #! END_WB_HEADER
-#! START_SOURCE_HEADER CSV2 CSV2_3
+#! START_SOURCE_HEADER CSV2 CSV2_2
 # =====================================================================
 # The following GUI line prompts for a file to be used as the source CSV file.
 # The user input is stored in a macro, which is then used to define
@@ -2659,94 +2576,94 @@ MACRO WB_KEYWORD "CSV2_3"
 #! START_WB_HEADER
 DEFAULT_MACRO SourceDataset
 INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
- puts {DEFAULT_MACRO SourceDataset_CSV2_3 $(SourceDataset)}     \
+ puts {DEFAULT_MACRO SourceDataset_CSV2_2 $(SourceDataset)}     \
  } ]
 #! END_WB_HEADER
-#! START_SOURCE_HEADER CSV2 CSV2_3
-DEFAULT_MACRO SourceDataset_CSV2_3 $(SourceDataset_CSV2_5)
-GUI MULTIFILE SourceDataset_CSV2_3 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|All_Files|* Source CSV (Comma Separated Value) File(s):
-DEFAULT_MACRO CSV2_IN_FEATURE_TYPE_NAME_CSV2_3 FORMAT_NAME
-CSV2_3_FEATURE_TYPE_NAME "$(CSV2_IN_FEATURE_TYPE_NAME_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_FIELDS_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELDS_GROUP_CSV2_3 CSV2_IN_DELIMITER_CSV2_3%CSV2_IN_FIELD_NAMES_LINE_CSV2_3%CSV2_IN_DATA_START_LINE_CSV2_3 Fields
-DEFAULT_MACRO CSV2_IN_DELIMITER_CSV2_3 auto
-CSV2_3_DELIMITER "$(CSV2_IN_DELIMITER_CSV2_3)"
-GUI STRING_OR_CHOICE_ENCODED CSV2_IN_DELIMITER_CSV2_3 auto%,%;%|%space%tab Delimiter Character:
-DEFAULT_MACRO CSV2_IN_FIELD_NAMES_LINE_CSV2_3 1
-CSV2_3_FIELD_NAMES_LINE "$(CSV2_IN_FIELD_NAMES_LINE_CSV2_3)"
-GUI OPTIONAL INT_OR_CHOICE CSV2_IN_FIELD_NAMES_LINE_CSV2_3 None%1%2%3%4%5 Field Names Line:
-GUI LOOKUP CSV2_IN_FIELD_NAMES_LINE_CSV2_3 None, 
-DEFAULT_MACRO CSV2_IN_DATA_START_LINE_CSV2_3 2
-CSV2_3_DATA_START_LINE "$(CSV2_IN_DATA_START_LINE_CSV2_3)"
-GUI RANGE_SLIDER CSV2_IN_DATA_START_LINE_CSV2_3 1%MAX%0 Data Start Line:
-DEFAULT_MACRO CSV2_IN_ADVANCED_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_ADVANCED_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_3%CSV2_IN_FIELD_NAMES_GROUP_CSV2_3%CSV2_IN_FIELD_VALUES_GROUP_CSV2_3%CSV2_IN_ENCODING_GROUP_CSV2_3%CSV2_IN_SKIPPED_LINES_GROUP_CSV2_3%CSV2_IN_SCHEMA_GENERATION_GROUP Advanced
-DEFAULT_MACRO CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_3%CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_3%CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3 Field Separation
-DEFAULT_MACRO CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_3 No
-CSV2_3_SKIP_DUPLICATE_DELIMITERS "$(CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_3)"
-GUI CHOICE CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_3 Yes%No Skip Duplicate Delimiters:
-DEFAULT_MACRO CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_3 <quote>
-CSV2_3_FIELD_QUALIFIER_CHARACTER "$(CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_3)"
-GUI OPTIONAL STRING_ENCODED CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_3 Field Qualifier Character:
-DEFAULT_MACRO CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3 <quote>
-CSV2_3_FIELD_QUALIFIER_ESCAPE_CHARACTER "$(CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3)"
-GUI OPTIONAL STRING_ENCODED CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3 Field Qualifier Escape Character:
-DEFAULT_MACRO CSV2_IN_FIELD_NAMES_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_NAMES_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_3%CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_3 Field Names
-DEFAULT_MACRO CSV2_IN_TRIM_FIELD_NAME_QUALIFIERS_CSV2_3 Yes
-CSV2_3_TRIM_FIELD_NAME_QUALIFIERS "$(CSV2_IN_TRIM_FIELD_NAME_QUALIFIERS_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_3 Yes
-CSV2_3_CASE_SENSITIVE_FIELD_NAMES "$(CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_3)"
-GUI CHOICE CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_3 Yes%No Case Sensitive Field Names:
-DEFAULT_MACRO CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_3 No
-CSV2_3_ENFORCE_STRICT_SCHEMA "$(CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_3)"
-GUI CHOICE CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_3 Yes%No Enforce Strict Schema:
-DEFAULT_MACRO CSV2_IN_FIELD_VALUES_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_VALUES_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_3 Field Values
-DEFAULT_MACRO CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_3 Yes
-CSV2_3_TRIM_FIELD_VALUE_QUALIFIERS "$(CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_3)"
-GUI CHOICE CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_3 Yes%No Trim Field Qualifier Characters:
-DEFAULT_MACRO CSV2_IN_ENCODING_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_ENCODING_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_ENCODING_CSV2_3%CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_3 Encoding
-DEFAULT_MACRO CSV2_IN_ENCODING_CSV2_3 windows-1252
-CSV2_3_ENCODING "$(CSV2_IN_ENCODING_CSV2_3)"
-GUI STRING_OR_ENCODING CSV2_IN_ENCODING_CSV2_3 fme-system%* Character Encoding:
-DEFAULT_MACRO CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_3 No
-CSV2_3_PRESERVE_SOURCE_ENCODING "$(CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_3)"
-GUI CHOICE CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_3 Yes%No Preserve Source Encoding:
-DEFAULT_MACRO CSV2_IN_SKIPPED_LINES_GROUP_CSV2_3 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_SKIPPED_LINES_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_IN_READ_SKIPPED_LINES_CSV2_3 Skipped Lines
-DEFAULT_MACRO CSV2_IN_READ_SKIPPED_LINES_CSV2_3 No
-CSV2_3_READ_SKIPPED_LINES "$(CSV2_IN_READ_SKIPPED_LINES_CSV2_3)"
-GUI CHOICE CSV2_IN_READ_SKIPPED_LINES_CSV2_3 Yes%No Read Skipped Lines:
-DEFAULT_MACRO CSV2_IN_SCAN_MAX_ROWS_CSV2_3 10000
-CSV2_3_SCAN_MAX_ROWS "$(CSV2_IN_SCAN_MAX_ROWS_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_SCAN_TYPES_CSV2_3 Yes
-CSV2_3_SCAN_TYPES "$(CSV2_IN_SCAN_TYPES_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_SCAN_ADDITIONAL_FIELDS_CSV2_3 No
-CSV2_3_SCAN_ADDITIONAL_FIELDS "$(CSV2_IN_SCAN_ADDITIONAL_FIELDS_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_EXPOSE_ATTRS_GROUP_CSV2_3 
-CSV2_3_EXPOSE_ATTRS_GROUP "$(CSV2_IN_EXPOSE_ATTRS_GROUP_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_CSV2_3 Yes
-CSV2_3_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(CSV2_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_CSV2_3)"
-DEFAULT_MACRO CSV2_IN_CHUNK_SIZE_CSV2_3 100000
-CSV2_3_CHUNK_SIZE "$(CSV2_IN_CHUNK_SIZE_CSV2_3)"
+#! START_SOURCE_HEADER CSV2 CSV2_2
+DEFAULT_MACRO SourceDataset_CSV2_2 $(SourceDataset_CSV2_5)
+GUI MULTIFILE SourceDataset_CSV2_2 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|All_Files|* Source CSV (Comma Separated Value) File(s):
+DEFAULT_MACRO CSV2_IN_FEATURE_TYPE_NAME_CSV2_2 FORMAT_NAME
+CSV2_2_FEATURE_TYPE_NAME "$(CSV2_IN_FEATURE_TYPE_NAME_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_FIELDS_GROUP_CSV2_2 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELDS_GROUP_CSV2_2 CSV2_IN_DELIMITER_CSV2_2%CSV2_IN_FIELD_NAMES_LINE_CSV2_2%CSV2_IN_DATA_START_LINE_CSV2_2 Fields
+DEFAULT_MACRO CSV2_IN_DELIMITER_CSV2_2 auto
+CSV2_2_DELIMITER "$(CSV2_IN_DELIMITER_CSV2_2)"
+GUI STRING_OR_CHOICE_ENCODED CSV2_IN_DELIMITER_CSV2_2 auto%,%;%|%space%tab Delimiter Character:
+DEFAULT_MACRO CSV2_IN_FIELD_NAMES_LINE_CSV2_2 1
+CSV2_2_FIELD_NAMES_LINE "$(CSV2_IN_FIELD_NAMES_LINE_CSV2_2)"
+GUI OPTIONAL INT_OR_CHOICE CSV2_IN_FIELD_NAMES_LINE_CSV2_2 None%1%2%3%4%5 Field Names Line:
+GUI LOOKUP CSV2_IN_FIELD_NAMES_LINE_CSV2_2 None, 
+DEFAULT_MACRO CSV2_IN_DATA_START_LINE_CSV2_2 2
+CSV2_2_DATA_START_LINE "$(CSV2_IN_DATA_START_LINE_CSV2_2)"
+GUI RANGE_SLIDER CSV2_IN_DATA_START_LINE_CSV2_2 1%MAX%0 Data Start Line:
+DEFAULT_MACRO CSV2_IN_ADVANCED_GROUP_CSV2_2 FME_DISCLOSURE_OPEN
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_ADVANCED_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_2%CSV2_IN_FIELD_NAMES_GROUP_CSV2_2%CSV2_IN_FIELD_VALUES_GROUP_CSV2_2%CSV2_IN_ENCODING_GROUP_CSV2_2%CSV2_IN_SKIPPED_LINES_GROUP_CSV2_2%CSV2_IN_SCHEMA_GENERATION_GROUP Advanced
+DEFAULT_MACRO CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_2 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_SEPARATION_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_2%CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_2%CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2 Field Separation
+DEFAULT_MACRO CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_2 No
+CSV2_2_SKIP_DUPLICATE_DELIMITERS "$(CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_2)"
+GUI CHOICE CSV2_IN_SKIP_DUPLICATE_DELIMITERS_CSV2_2 Yes%No Skip Duplicate Delimiters:
+DEFAULT_MACRO CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_2 <quote>
+CSV2_2_FIELD_QUALIFIER_CHARACTER "$(CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_2)"
+GUI OPTIONAL STRING_ENCODED CSV2_IN_FIELD_QUALIFIER_CHARACTER_CSV2_2 Field Qualifier Character:
+DEFAULT_MACRO CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2 <quote>
+CSV2_2_FIELD_QUALIFIER_ESCAPE_CHARACTER "$(CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2)"
+GUI OPTIONAL STRING_ENCODED CSV2_IN_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_2 Field Qualifier Escape Character:
+DEFAULT_MACRO CSV2_IN_FIELD_NAMES_GROUP_CSV2_2 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_NAMES_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_2%CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_2 Field Names
+DEFAULT_MACRO CSV2_IN_TRIM_FIELD_NAME_QUALIFIERS_CSV2_2 Yes
+CSV2_2_TRIM_FIELD_NAME_QUALIFIERS "$(CSV2_IN_TRIM_FIELD_NAME_QUALIFIERS_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_2 Yes
+CSV2_2_CASE_SENSITIVE_FIELD_NAMES "$(CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_2)"
+GUI CHOICE CSV2_IN_CASE_SENSITIVE_FIELD_NAMES_CSV2_2 Yes%No Case Sensitive Field Names:
+DEFAULT_MACRO CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_2 No
+CSV2_2_ENFORCE_STRICT_SCHEMA "$(CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_2)"
+GUI CHOICE CSV2_IN_ENFORCE_STRICT_SCHEMA_CSV2_2 Yes%No Enforce Strict Schema:
+DEFAULT_MACRO CSV2_IN_FIELD_VALUES_GROUP_CSV2_2 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_FIELD_VALUES_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_2 Field Values
+DEFAULT_MACRO CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_2 Yes
+CSV2_2_TRIM_FIELD_VALUE_QUALIFIERS "$(CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_2)"
+GUI CHOICE CSV2_IN_TRIM_FIELD_VALUE_QUALIFIERS_CSV2_2 Yes%No Trim Field Qualifier Characters:
+DEFAULT_MACRO CSV2_IN_ENCODING_GROUP_CSV2_2 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_ENCODING_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_ENCODING_CSV2_2%CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_2 Encoding
+DEFAULT_MACRO CSV2_IN_ENCODING_CSV2_2 windows-1252
+CSV2_2_ENCODING "$(CSV2_IN_ENCODING_CSV2_2)"
+GUI STRING_OR_ENCODING CSV2_IN_ENCODING_CSV2_2 fme-system%* Character Encoding:
+DEFAULT_MACRO CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_2 No
+CSV2_2_PRESERVE_SOURCE_ENCODING "$(CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_2)"
+GUI CHOICE CSV2_IN_PRESERVE_SOURCE_ENCODING_CSV2_2 Yes%No Preserve Source Encoding:
+DEFAULT_MACRO CSV2_IN_SKIPPED_LINES_GROUP_CSV2_2 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_SKIPPED_LINES_GROUP_CSV2_2 FME_DISCLOSURE_CLOSED%CSV2_IN_READ_SKIPPED_LINES_CSV2_2 Skipped Lines
+DEFAULT_MACRO CSV2_IN_READ_SKIPPED_LINES_CSV2_2 No
+CSV2_2_READ_SKIPPED_LINES "$(CSV2_IN_READ_SKIPPED_LINES_CSV2_2)"
+GUI CHOICE CSV2_IN_READ_SKIPPED_LINES_CSV2_2 Yes%No Read Skipped Lines:
+DEFAULT_MACRO CSV2_IN_SCAN_MAX_ROWS_CSV2_2 10000
+CSV2_2_SCAN_MAX_ROWS "$(CSV2_IN_SCAN_MAX_ROWS_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_SCAN_TYPES_CSV2_2 Yes
+CSV2_2_SCAN_TYPES "$(CSV2_IN_SCAN_TYPES_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_SCAN_ADDITIONAL_FIELDS_CSV2_2 No
+CSV2_2_SCAN_ADDITIONAL_FIELDS "$(CSV2_IN_SCAN_ADDITIONAL_FIELDS_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_EXPOSE_ATTRS_GROUP_CSV2_2 
+CSV2_2_EXPOSE_ATTRS_GROUP "$(CSV2_IN_EXPOSE_ATTRS_GROUP_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_CSV2_2 Yes
+CSV2_2_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(CSV2_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_CSV2_2)"
+DEFAULT_MACRO CSV2_IN_CHUNK_SIZE_CSV2_2 100000
+CSV2_2_CHUNK_SIZE "$(CSV2_IN_CHUNK_SIZE_CSV2_2)"
 # ===========================================================================
-DEFAULT_MACRO CSV2_IN_NETWORK_AUTHENTICATION_CSV2_3 
-CSV2_3_NETWORK_AUTHENTICATION "$(CSV2_IN_NETWORK_AUTHENTICATION_CSV2_3)"
-GUI OPTIONAL AUTHENTICATOR CSV2_IN_NETWORK_AUTHENTICATION_CSV2_3 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+DEFAULT_MACRO CSV2_IN_NETWORK_AUTHENTICATION_CSV2_2 
+CSV2_2_NETWORK_AUTHENTICATION "$(CSV2_IN_NETWORK_AUTHENTICATION_CSV2_2)"
+GUI OPTIONAL AUTHENTICATOR CSV2_IN_NETWORK_AUTHENTICATION_CSV2_2 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
 # ============================================================================ 
-DEFAULT_MACRO CSV2_IN_ATTRIBUTE_READING_CSV2_3 DEFLINE
-CSV2_3_ATTRIBUTE_READING "$(CSV2_IN_ATTRIBUTE_READING_CSV2_3)"
+DEFAULT_MACRO CSV2_IN_ATTRIBUTE_READING_CSV2_2 DEFLINE
+CSV2_2_ATTRIBUTE_READING "$(CSV2_IN_ATTRIBUTE_READING_CSV2_2)"
 # ============================================================================ 
-CSV2_3_GENERATE_FME_BUILD_NUM 20614
-CSV2_3_DATASET "$(SourceDataset_CSV2_3)"
+CSV2_2_GENERATE_FME_BUILD_NUM 20614
+CSV2_2_DATASET "$(SourceDataset_CSV2_2)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "CSV2_4"
+MACRO WB_KEYWORD "CSV2_3"
 #! END_WB_HEADER
-#! START_DEST_HEADER CSV2 CSV2_4
+#! START_DEST_HEADER CSV2 CSV2_3
 # =====================================================================
 # The following GUI line prompts for a folder where the
 # CSV files will be stored
@@ -2755,11 +2672,82 @@ MACRO WB_KEYWORD "CSV2_4"
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_CSV2_3 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER CSV2 CSV2_3
+DEFAULT_MACRO DestDataset_CSV2_3 $(DestDataset_CSV2)
+GUI DIRNAME DestDataset_CSV2_3 Destination CSV (Comma Separated Value) Folder:
+DEFAULT_MACRO CSV2_OUT_DATASET_GROUP_CSV2_3 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_DATASET_GROUP_CSV2_3 CSV2_OUT_EXTENSION_CSV2_3%CSV2_OUT_EXISTING_FILE_HANDLING Dataset
+DEFAULT_MACRO CSV2_OUT_EXTENSION_CSV2_3 csv
+CSV2_3_EXTENSION "$(CSV2_OUT_EXTENSION_CSV2_3)"
+GUI OPTIONAL TEXT CSV2_OUT_EXTENSION_CSV2_3 Extension:
+DEFAULT_MACRO CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_3 Yes
+CSV2_3_EXISTING_FILE_HANDLING "$(CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_3)"
+DEFAULT_MACRO CSV2_OUT_FIELDS_GROUP_CSV2_3 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_FIELDS_GROUP_CSV2_3 CSV2_OUT_DELIMITER_CSV2_3%CSV2_OUT_WRITE_FIELD_NAMES Fields
+DEFAULT_MACRO CSV2_OUT_DELIMITER_CSV2_3 <comma>
+CSV2_3_DELIMITER "$(CSV2_OUT_DELIMITER_CSV2_3)"
+GUI STRING_OR_CHOICE_ENCODED CSV2_OUT_DELIMITER_CSV2_3 ,%;%|%space%tab Delimiter Character:
+DEFAULT_MACRO CSV2_OUT_WRITE_FIELD_NAMES_CSV2_3 firstrow
+CSV2_3_WRITE_FIELD_NAMES "$(CSV2_OUT_WRITE_FIELD_NAMES_CSV2_3)"
+DEFAULT_MACRO CSV2_OUT_ENCODING_GROUP_CSV2_3 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ENCODING_GROUP_CSV2_3 CSV2_OUT_ENCODING_CSV2_3%CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_3 Encoding
+DEFAULT_MACRO CSV2_OUT_ENCODING_CSV2_3 UTF-8
+CSV2_3_ENCODING "$(CSV2_OUT_ENCODING_CSV2_3)"
+GUI STRING_OR_ENCODING CSV2_OUT_ENCODING_CSV2_3 fme-system%* Character Encoding:
+DEFAULT_MACRO CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_3 Yes
+CSV2_3_WRITE_BOM_FOR_UNICODE "$(CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_3)"
+GUI CHOICE CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_3 Yes%No Write Byte Order Mark for Unicode:
+DEFAULT_MACRO CSV2_OUT_ADVANCED_GROUP_CSV2_3 
+GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ADVANCED_GROUP_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_3%CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_3%CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3%CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_3%CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3%CSV2_OUT_ROW_TERMINATION_CSV2_3%CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_3 Advanced
+DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_3 if_needed
+CSV2_3_QUALIFY_FIELD_NAMES "$(CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_3)"
+GUI LOOKUP_CHOICE CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_3 Yes,yes%No,no%If<space>Needed,if_needed Qualify Field Names:
+DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_3 if_needed
+CSV2_3_QUALIFY_FIELD_VALUES "$(CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_3)"
+GUI ACTIVECHOICE_LOOKUP CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_3 Yes,yes,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3%No,no%If<space>Needed,if_needed,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3 Qualify Field Values:
+DEFAULT_MACRO CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3 <Unused>
+CSV2_3_UNQUALIFIED_FIELD_VALUE_HANDLING "$(CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3)"
+GUI LOOKUP_CHOICE CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_3 Remove<space>Unsafe<space>Characters,remove_unsafe%Preserve<space>Unsafe<space>Characters,preserve_unsafe Unqualified Field Value Handling:
+DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_3 <quote>
+CSV2_3_FIELD_QUALIFIER_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_3)"
+GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_3 Field Qualifier Character:
+DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3 <quote>
+CSV2_3_FIELD_QUALIFIER_ESCAPE_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3)"
+GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_3 Field Qualifier Escape Character:
+DEFAULT_MACRO CSV2_OUT_ROW_TERMINATION_CSV2_3 System
+CSV2_3_ROW_TERMINATION "$(CSV2_OUT_ROW_TERMINATION_CSV2_3)"
+GUI CHOICE CSV2_OUT_ROW_TERMINATION_CSV2_3 System%Windows%Unix%Macintosh Row Termination:
+DEFAULT_MACRO CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_3 NO
+CSV2_3_WRITE_SCHEMA_FILE "$(CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_3)"
+GUI ACTIVEDISCLOSUREGROUP CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_3 FME_DISCLOSURE_CLOSED%CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_3 Write Schema Configuration File
+DEFAULT_MACRO CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_3 <Unused>
+CSV2_3_EXISTING_SCHEMA_FILE_HANDLING "$(CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_3)"
+GUI CHOICE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_3 Overwrite%Prepend Existing Schema File Handling:
+DEFAULT_MACRO CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_3 FEATURE_TYPE
+CSV2_3_COORDINATE_SYSTEM_GRANULARITY "$(CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_3)"
+# ============================================================================ 
+CSV2_3_GENERATE_FME_BUILD_NUM 20614
+CSV2_3_DATASET "$(DestDataset_CSV2_3)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "CSV2_4"
+#! END_WB_HEADER
+#! START_DEST_HEADER CSV2 CSV2_4
+# =====================================================================
+# The following GUI line prompts for a folder where the
+# CSV files will be stored
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
  puts {DEFAULT_MACRO DestDataset_CSV2_4 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
 #! START_DEST_HEADER CSV2 CSV2_4
-DEFAULT_MACRO DestDataset_CSV2_4 $(DestDataset_CSV2)
+DEFAULT_MACRO DestDataset_CSV2_4 $(DestDataset_CSV2_2)
 GUI DIRNAME DestDataset_CSV2_4 Destination CSV (Comma Separated Value) Folder:
 DEFAULT_MACRO CSV2_OUT_DATASET_GROUP_CSV2_4 
 GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_DATASET_GROUP_CSV2_4 CSV2_OUT_EXTENSION_CSV2_4%CSV2_OUT_EXISTING_FILE_HANDLING Dataset
@@ -2814,77 +2802,6 @@ CSV2_4_COORDINATE_SYSTEM_GRANULARITY "$(CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_C
 # ============================================================================ 
 CSV2_4_GENERATE_FME_BUILD_NUM 20614
 CSV2_4_DATASET "$(DestDataset_CSV2_4)"
-#! END_DEST_HEADER
-#! START_WB_HEADER
-MACRO WB_KEYWORD "CSV2_5"
-#! END_WB_HEADER
-#! START_DEST_HEADER CSV2 CSV2_5
-# =====================================================================
-# The following GUI line prompts for a folder where the
-# CSV files will be stored
-#! END_DEST_HEADER
-#! START_WB_HEADER
-DEFAULT_MACRO DestDataset
-INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_CSV2_5 $(DestDataset)}         \
- } ]
-#! END_WB_HEADER
-#! START_DEST_HEADER CSV2 CSV2_5
-DEFAULT_MACRO DestDataset_CSV2_5 $(DestDataset_CSV2_2)
-GUI DIRNAME DestDataset_CSV2_5 Destination CSV (Comma Separated Value) Folder:
-DEFAULT_MACRO CSV2_OUT_DATASET_GROUP_CSV2_5 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_DATASET_GROUP_CSV2_5 CSV2_OUT_EXTENSION_CSV2_5%CSV2_OUT_EXISTING_FILE_HANDLING Dataset
-DEFAULT_MACRO CSV2_OUT_EXTENSION_CSV2_5 csv
-CSV2_5_EXTENSION "$(CSV2_OUT_EXTENSION_CSV2_5)"
-GUI OPTIONAL TEXT CSV2_OUT_EXTENSION_CSV2_5 Extension:
-DEFAULT_MACRO CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_5 Yes
-CSV2_5_EXISTING_FILE_HANDLING "$(CSV2_OUT_EXISTING_FILE_HANDLING_CSV2_5)"
-DEFAULT_MACRO CSV2_OUT_FIELDS_GROUP_CSV2_5 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_FIELDS_GROUP_CSV2_5 CSV2_OUT_DELIMITER_CSV2_5%CSV2_OUT_WRITE_FIELD_NAMES Fields
-DEFAULT_MACRO CSV2_OUT_DELIMITER_CSV2_5 <comma>
-CSV2_5_DELIMITER "$(CSV2_OUT_DELIMITER_CSV2_5)"
-GUI STRING_OR_CHOICE_ENCODED CSV2_OUT_DELIMITER_CSV2_5 ,%;%|%space%tab Delimiter Character:
-DEFAULT_MACRO CSV2_OUT_WRITE_FIELD_NAMES_CSV2_5 firstrow
-CSV2_5_WRITE_FIELD_NAMES "$(CSV2_OUT_WRITE_FIELD_NAMES_CSV2_5)"
-DEFAULT_MACRO CSV2_OUT_ENCODING_GROUP_CSV2_5 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ENCODING_GROUP_CSV2_5 CSV2_OUT_ENCODING_CSV2_5%CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_5 Encoding
-DEFAULT_MACRO CSV2_OUT_ENCODING_CSV2_5 UTF-8
-CSV2_5_ENCODING "$(CSV2_OUT_ENCODING_CSV2_5)"
-GUI STRING_OR_ENCODING CSV2_OUT_ENCODING_CSV2_5 fme-system%* Character Encoding:
-DEFAULT_MACRO CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_5 Yes
-CSV2_5_WRITE_BOM_FOR_UNICODE "$(CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_5)"
-GUI CHOICE CSV2_OUT_WRITE_BOM_FOR_UNICODE_CSV2_5 Yes%No Write Byte Order Mark for Unicode:
-DEFAULT_MACRO CSV2_OUT_ADVANCED_GROUP_CSV2_5 
-GUI OPTIONAL DISCLOSUREGROUP CSV2_OUT_ADVANCED_GROUP_CSV2_5 FME_DISCLOSURE_CLOSED%CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_5%CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_5%CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5%CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_5%CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_5%CSV2_OUT_ROW_TERMINATION_CSV2_5%CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_5 Advanced
-DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_5 if_needed
-CSV2_5_QUALIFY_FIELD_NAMES "$(CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_5)"
-GUI LOOKUP_CHOICE CSV2_OUT_QUALIFY_FIELD_NAMES_CSV2_5 Yes,yes%No,no%If<space>Needed,if_needed Qualify Field Names:
-DEFAULT_MACRO CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_5 if_needed
-CSV2_5_QUALIFY_FIELD_VALUES "$(CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_5)"
-GUI ACTIVECHOICE_LOOKUP CSV2_OUT_QUALIFY_FIELD_VALUES_CSV2_5 Yes,yes,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5%No,no%If<space>Needed,if_needed,CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5 Qualify Field Values:
-DEFAULT_MACRO CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5 <Unused>
-CSV2_5_UNQUALIFIED_FIELD_VALUE_HANDLING "$(CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5)"
-GUI LOOKUP_CHOICE CSV2_OUT_UNQUALIFIED_FIELD_VALUE_HANDLING_CSV2_5 Remove<space>Unsafe<space>Characters,remove_unsafe%Preserve<space>Unsafe<space>Characters,preserve_unsafe Unqualified Field Value Handling:
-DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_5 <quote>
-CSV2_5_FIELD_QUALIFIER_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_5)"
-GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_CHARACTER_CSV2_5 Field Qualifier Character:
-DEFAULT_MACRO CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_5 <quote>
-CSV2_5_FIELD_QUALIFIER_ESCAPE_CHARACTER "$(CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_5)"
-GUI STRING_ENCODED CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER_CSV2_5 Field Qualifier Escape Character:
-DEFAULT_MACRO CSV2_OUT_ROW_TERMINATION_CSV2_5 System
-CSV2_5_ROW_TERMINATION "$(CSV2_OUT_ROW_TERMINATION_CSV2_5)"
-GUI CHOICE CSV2_OUT_ROW_TERMINATION_CSV2_5 System%Windows%Unix%Macintosh Row Termination:
-DEFAULT_MACRO CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_5 NO
-CSV2_5_WRITE_SCHEMA_FILE "$(CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_5)"
-GUI ACTIVEDISCLOSUREGROUP CSV2_OUT_WRITE_SCHEMA_FILE_CSV2_5 FME_DISCLOSURE_CLOSED%CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_5 Write Schema Configuration File
-DEFAULT_MACRO CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_5 <Unused>
-CSV2_5_EXISTING_SCHEMA_FILE_HANDLING "$(CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_5)"
-GUI CHOICE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING_CSV2_5 Overwrite%Prepend Existing Schema File Handling:
-DEFAULT_MACRO CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_5 FEATURE_TYPE
-CSV2_5_COORDINATE_SYSTEM_GRANULARITY "$(CSV2_OUT_COORDINATE_SYSTEM_GRANULARITY_CSV2_5)"
-# ============================================================================ 
-CSV2_5_GENERATE_FME_BUILD_NUM 20614
-CSV2_5_DATASET "$(DestDataset_CSV2_5)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "POSTGIS_1"
@@ -2942,59 +2859,59 @@ POSTGIS_1_GENERATE_FME_BUILD_NUM 20624
 POSTGIS_1_DATASET "$(DestDataset_POSTGIS_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
-MACRO WB_KEYWORD "POSTGIS_3"
+MACRO WB_KEYWORD "POSTGIS_2"
 #! END_WB_HEADER
-#! START_DEST_HEADER POSTGIS POSTGIS_3
+#! START_DEST_HEADER POSTGIS POSTGIS_2
 #! END_DEST_HEADER
 #! START_WB_HEADER
 DEFAULT_MACRO DestDataset
 INCLUDE [ if {"$(DestDataset)" != ""} {                          \
- puts {DEFAULT_MACRO DestDataset_POSTGIS_3 $(DestDataset)}         \
+ puts {DEFAULT_MACRO DestDataset_POSTGIS_2 $(DestDataset)}         \
  } ]
 #! END_WB_HEADER
-#! START_DEST_HEADER POSTGIS POSTGIS_3
-DEFAULT_MACRO DestDataset_POSTGIS_3 $(DestDataset_POSTGIS_4)
-GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_3 FMT:POSTGIS Connection:
-POSTGIS_3_PLUGIN_MAX_CHANNELS 1
-DEFAULT_MACRO POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_3 Yes
-POSTGIS_3_STRICT_TEMPORAL_TYPE_HANDLING "$(POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_3)"
-DEFAULT_MACRO POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_3 
-GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_3 POSTGIS_OUT_NAMED_CONNECTION Database Connection
+#! START_DEST_HEADER POSTGIS POSTGIS_2
+DEFAULT_MACRO DestDataset_POSTGIS_2 $(DestDataset_POSTGIS_4)
+GUI NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS_2 FMT:POSTGIS Connection:
+POSTGIS_2_PLUGIN_MAX_CHANNELS 1
+DEFAULT_MACRO POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_2 Yes
+POSTGIS_2_STRICT_TEMPORAL_TYPE_HANDLING "$(POSTGIS_OUT_STRICT_TEMPORAL_TYPE_HANDLING_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2 
+GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2 POSTGIS_OUT_NAMED_CONNECTION Database Connection
 # ============================================================================
 # Write geometry (planar) or geography (geodetic) column
-DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_3 geometry
-POSTGIS_3_SPATIAL_COLUMN_TYPE "$(POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_3)"
+DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_2 geometry
+POSTGIS_2_SPATIAL_COLUMN_TYPE "$(POSTGIS_OUT_SPATIAL_COLUMN_TYPE_POSTGIS_2)"
 # ============================================================================
 # Default spatial column name
-DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_3 geom
-POSTGIS_3_SPATIAL_COLUMN_NAME "$(POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_3)"
-DEFAULT_MACRO POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_3 yes
-POSTGIS_3_GENERIC_GEOMETRY "$(POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_3)"
-DEFAULT_MACRO POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_3 FEATURE_TYPE
-POSTGIS_3_COORDINATE_SYSTEM_GRANULARITY "$(POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_3)"
-DEFAULT_MACRO POSTGIS_OUT_ADVANCED_POSTGIS_3 
-GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_ADVANCED_POSTGIS_3 POSTGIS_OUT_BULK_COPY_POSTGIS_3%POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_3%POSTGIS_OUT_START_TRANSACTION_POSTGIS_3%POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_3%POSTGIS_OUT_BEGIN_SQL_POSTGIS_3%POSTGIS_OUT_END_SQL_POSTGIS_3 Advanced
-DEFAULT_MACRO POSTGIS_OUT_BULK_COPY_POSTGIS_3 YES
-POSTGIS_3_BULK_COPY "$(POSTGIS_OUT_BULK_COPY_POSTGIS_3)"
-GUI CHOICE POSTGIS_OUT_BULK_COPY_POSTGIS_3 YES%NO Bulk Insert
-DEFAULT_MACRO POSTGIS_OUT_START_TRANSACTION_POSTGIS_3 0
-POSTGIS_3_START_TRANSACTION "$(POSTGIS_OUT_START_TRANSACTION_POSTGIS_3)"
-GUI TEXT POSTGIS_OUT_START_TRANSACTION_POSTGIS_3 Starting Feature:
-DEFAULT_MACRO POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_3 1000
-POSTGIS_3_TRANSACTION_INTERVAL "$(POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_3)"
-GUI TEXT POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_3 Features Per Transaction
-DEFAULT_MACRO POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_3 NO
-POSTGIS_3_INSERT_TEXT_GEOMETRY "$(POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_3)"
-GUI CHOICE POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_3 YES%NO Insert WKT
-DEFAULT_MACRO POSTGIS_OUT_BEGIN_SQL_POSTGIS_3 
-POSTGIS_3_BEGIN_SQL "$(POSTGIS_OUT_BEGIN_SQL_POSTGIS_3)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_BEGIN_SQL_POSTGIS_3 MODE,SQL;FORMAT,POSTGIS SQL To Run Before Write
-DEFAULT_MACRO POSTGIS_OUT_END_SQL_POSTGIS_3 
-POSTGIS_3_END_SQL "$(POSTGIS_OUT_END_SQL_POSTGIS_3)"
-GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_END_SQL_POSTGIS_3 MODE,SQL;FORMAT,POSTGIS SQL To Run After Write
+DEFAULT_MACRO POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_2 geom
+POSTGIS_2_SPATIAL_COLUMN_NAME "$(POSTGIS_OUT_SPATIAL_COLUMN_NAME_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_2 yes
+POSTGIS_2_GENERIC_GEOMETRY "$(POSTGIS_OUT_GENERIC_GEOMETRY_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_2 FEATURE_TYPE
+POSTGIS_2_COORDINATE_SYSTEM_GRANULARITY "$(POSTGIS_OUT_COORDINATE_SYSTEM_GRANULARITY_POSTGIS_2)"
+DEFAULT_MACRO POSTGIS_OUT_ADVANCED_POSTGIS_2 
+GUI OPTIONAL DISCLOSUREGROUP POSTGIS_OUT_ADVANCED_POSTGIS_2 POSTGIS_OUT_BULK_COPY_POSTGIS_2%POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2%POSTGIS_OUT_START_TRANSACTION_POSTGIS_2%POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2%POSTGIS_OUT_BEGIN_SQL_POSTGIS_2%POSTGIS_OUT_END_SQL_POSTGIS_2 Advanced
+DEFAULT_MACRO POSTGIS_OUT_BULK_COPY_POSTGIS_2 YES
+POSTGIS_2_BULK_COPY "$(POSTGIS_OUT_BULK_COPY_POSTGIS_2)"
+GUI CHOICE POSTGIS_OUT_BULK_COPY_POSTGIS_2 YES%NO Bulk Insert
+DEFAULT_MACRO POSTGIS_OUT_START_TRANSACTION_POSTGIS_2 0
+POSTGIS_2_START_TRANSACTION "$(POSTGIS_OUT_START_TRANSACTION_POSTGIS_2)"
+GUI TEXT POSTGIS_OUT_START_TRANSACTION_POSTGIS_2 Starting Feature:
+DEFAULT_MACRO POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2 1000
+POSTGIS_2_TRANSACTION_INTERVAL "$(POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2)"
+GUI TEXT POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2 Features Per Transaction
+DEFAULT_MACRO POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2 NO
+POSTGIS_2_INSERT_TEXT_GEOMETRY "$(POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2)"
+GUI CHOICE POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2 YES%NO Insert WKT
+DEFAULT_MACRO POSTGIS_OUT_BEGIN_SQL_POSTGIS_2 
+POSTGIS_2_BEGIN_SQL "$(POSTGIS_OUT_BEGIN_SQL_POSTGIS_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_BEGIN_SQL_POSTGIS_2 MODE,SQL;FORMAT,POSTGIS SQL To Run Before Write
+DEFAULT_MACRO POSTGIS_OUT_END_SQL_POSTGIS_2 
+POSTGIS_2_END_SQL "$(POSTGIS_OUT_END_SQL_POSTGIS_2)"
+GUI OPTIONAL TEXT_EDIT_SQL_CFG POSTGIS_OUT_END_SQL_POSTGIS_2 MODE,SQL;FORMAT,POSTGIS SQL To Run After Write
 # ============================================================================ 
-POSTGIS_3_GENERATE_FME_BUILD_NUM 20614
-POSTGIS_3_DATASET "$(DestDataset_POSTGIS_3)"
+POSTGIS_2_GENERATE_FME_BUILD_NUM 20614
+POSTGIS_2_DATASET "$(DestDataset_POSTGIS_2)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
@@ -3010,21 +2927,22 @@ FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 DEFAULT_MACRO DATASET_KEYWORD_CSV2_1 CSV2_1
+DEFAULT_MACRO DATASET_KEYWORD_CSV2_2 CSV2_2
 DEFAULT_MACRO DATASET_KEYWORD_CSV2_3 CSV2_3
 DEFAULT_MACRO DATASET_KEYWORD_CSV2_4 CSV2_4
-DEFAULT_MACRO DATASET_KEYWORD_CSV2_5 CSV2_5
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
-DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_3 POSTGIS_3
+DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_2 POSTGIS_2
 # -------------------------------------------------------------------------
 
 CSV2_1_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
-CSV2_3_READER_META_ATTRIBUTES fme_feature_type
+CSV2_2_READER_META_ATTRIBUTES fme_feature_type
 
 # -------------------------------------------------------------------------
 
+CSV2_2_COORDINATE_SYSTEM EPSG:4326
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
@@ -3039,12 +2957,12 @@ MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
 MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE CSV2 CSV2_3::CSV multi_reader_keyword,$(DATASET_KEYWORD_CSV2_3) TO FME_GENERIC ::CSV ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE CSV2 CSV2_2::CSV multi_reader_keyword,$(DATASET_KEYWORD_CSV2_2) TO FME_GENERIC ::CSV ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 CSV2_1_MERGE_DEF CSV2_1::CSV EXACT CSV
-CSV2_3_MERGE_DEF CSV2_3::CSV EXACT CSV DEFLINE fme_attribute_reading,defined,GLOBAL<space>UNIQUE<space>IDENTIFIER,string,LAST<space>EDITED<space>DATE,string,TAXONOMIC<space>ORDER,uint16,CATEGORY,string,COMMON<space>NAME,string,SCIENTIFIC<space>NAME,string,SUBSPECIES<space>COMMON<space>NAME,string,SUBSPECIES<space>SCIENTIFIC<space>NAME,string,OBSERVATION<space>COUNT,string,BREEDING<space>BIRD<space>ATLAS<space>CODE,string,BREEDING<space>BIRD<space>ATLAS<space>CATEGORY,string,AGE<solidus>SEX,string,COUNTRY,string,COUNTRY<space>CODE,string,STATE,string,STATE<space>CODE,string,COUNTY,string,COUNTY<space>CODE,string,IBA<space>CODE,string,BCR<space>CODE,uint8,USFWS<space>CODE,string,ATLAS<space>BLOCK,string,LOCALITY,string,LOCALITY<space>ID,string,LOCALITY<space>TYPE,string,LATITUDE,y_coordinate,LONGITUDE,x_coordinate,OBSERVATION<space>DATE,string,TIME<space>OBSERVATIONS<space>STARTED,string,OBSERVER<space>ID,string,SAMPLING<space>EVENT<space>IDENTIFIER,string,PROTOCOL<space>TYPE,string,PROTOCOL<space>CODE,string,PROJECT<space>CODE,string,DURATION<space>MINUTES,uint16,EFFORT<space>DISTANCE<space>KM,real32,EFFORT<space>AREA<space>HA,real64,NUMBER<space>OBSERVERS,uint8,ALL<space>SPECIES<space>REPORTED,uint8,GROUP<space>IDENTIFIER,string,HAS<space>MEDIA,uint8,APPROVED,uint8,REVIEWED,uint8,REASON,string,TRIP<space>COMMENTS,string,SPECIES<space>COMMENTS,string,col46,string,common<space>name,string
+CSV2_2_MERGE_DEF CSV2_2::CSV EXACT CSV DEFLINE fme_attribute_reading,defined,COMMON<space>NAME,string,SCIENTIFIC<space>NAME,string,OBSERVATION<space>COUNT,string,COUNTY,string,LOCALITY,string,LATITUDE,y_coordinate,LONGITUDE,x_coordinate,OBSERVATION<space>DATE,string,SAMPLING<space>EVENT<space>IDENTIFIER,string,TRIP<space>COMMENTS,string,SPECIES<space>COMMENTS,string,common<space>name,string
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV_CSV2_3 Splitter"    INPUT FEATURE_TYPE CSV      multi_reader_keyword $(DATASET_KEYWORD_CSV2_3)    OUTPUT FEATURE_TYPE CSV_CSV2_3
+FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV_CSV2_2 Splitter"    INPUT FEATURE_TYPE CSV      multi_reader_keyword $(DATASET_KEYWORD_CSV2_2)    OUTPUT FEATURE_TYPE CSV_CSV2_2
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV_CSV2_1 Splitter"    INPUT FEATURE_TYPE CSV      multi_reader_keyword $(DATASET_KEYWORD_CSV2_1)    OUTPUT FEATURE_TYPE CSV_CSV2_1
@@ -3052,14 +2970,14 @@ DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 DEFAULT_MACRO DateTimeConverter_2_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {} ne {} } {       set inFormat {};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y-%m-%d};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {OBSERVATION<space>DATE};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO DateTimeConverter_2_EXPRESSION_LIST [join $parmList { }]"; ]
-Tcl2 proc DateTimeConverter_2_b117a493_f7c9_4cbe_acff_a08dc9ad77cd9_DateTimeConverter {} {    set attrs {OBSERVATION<space>DATE};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_2_EXPRESSION_LIST) DateTimeConverter_2;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_2_1    INPUT  FEATURE_TYPE CSV_CSV2_3    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_2_b117a493_f7c9_4cbe_acff_a08dc9ad77cd9_DateTimeConverter)
+Tcl2 proc DateTimeConverter_2_f8ae508a_57c4_43bd_ac4a_b72a26094fbb1_DateTimeConverter {} {    set attrs {OBSERVATION<space>DATE};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_2_EXPRESSION_LIST) DateTimeConverter_2;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_2_1    INPUT  FEATURE_TYPE CSV_CSV2_2    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_2_f8ae508a_57c4_43bd_ac4a_b72a26094fbb1_DateTimeConverter)
 FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_2_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_2_OUTPUT       @RenameAttributes(FME_STRICT, fme_rejection_code,___fme_rejection_code___)
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeConverter_2_<Rejected> INPUT FEATURE_TYPE DateTimeConverter_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeConverter_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-Tcl2 proc NullAttributeMapper_2_d6b9a8c7_64ed_4488_8e28_6ed17d7aac7b9_null_replacer { otherValue newValue regExp } {    set attrs [split {COMMON<space>NAME COUNTY LATITUDE LONGITUDE OBSERVATION<space>DATE} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {DELETEATTR};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_2    INPUT  FEATURE_TYPE DateTimeConverter_2_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT         @Tcl2("NullAttributeMapper_2_d6b9a8c7_64ed_4488_8e28_6ed17d7aac7b9_null_replacer {} {<Unused>} {}")
+Tcl2 proc NullAttributeMapper_2_6992c57c_75a4_4f9c_8b4c_df17f482788c1_null_replacer { otherValue newValue regExp } {    set attrs [split {COMMON<space>NAME COUNTY LATITUDE LONGITUDE OBSERVATION<space>DATE} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {DELETEATTR};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper_2    INPUT  FEATURE_TYPE DateTimeConverter_2_OUTPUT    OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT         @Tcl2("NullAttributeMapper_2_6992c57c_75a4_4f9c_8b4c_df17f482788c1_null_replacer {} {<Unused>} {}")
 FACTORY_DEF * TeeFactory   FACTORY_NAME "NullAttributeMapper_2 OUTPUT Splitter"   INPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT   OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT_0_3SMz861nVvU=   OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT_1_AZEsBgZ4BZg=   OUTPUT FEATURE_TYPE NullAttributeMapper_2_OUTPUT_2_a/0loijY2kc=
 # -------------------------------------------------------------------------
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
@@ -3073,10 +2991,10 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-FACTORY_DEF * RecorderFactory    FACTORY_NAME NullAttributeMapper_2_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA GLOBAL<space>UNIQUE<space>IDENTIFIER,buffer,LAST<space>EDITED<space>DATE,buffer,TAXONOMIC<space>ORDER,uint16,CATEGORY,buffer,COMMON<space>NAME,buffer,SCIENTIFIC<space>NAME,buffer,SUBSPECIES<space>COMMON<space>NAME,buffer,SUBSPECIES<space>SCIENTIFIC<space>NAME,buffer,OBSERVATION<space>COUNT,buffer,BREEDING<space>BIRD<space>ATLAS<space>CODE,buffer,BREEDING<space>BIRD<space>ATLAS<space>CATEGORY,buffer,AGE<solidus>SEX,buffer,COUNTRY,buffer,COUNTRY<space>CODE,buffer,STATE,buffer,STATE<space>CODE,buffer,COUNTY,buffer,COUNTY<space>CODE,buffer,IBA<space>CODE,buffer,BCR<space>CODE,uint8,USFWS<space>CODE,buffer,ATLAS<space>BLOCK,buffer,LOCALITY,buffer,LOCALITY<space>ID,buffer,LOCALITY<space>TYPE,buffer,LATITUDE,real64,LONGITUDE,real64,OBSERVATION<space>DATE,buffer,TIME<space>OBSERVATIONS<space>STARTED,buffer,OBSERVER<space>ID,buffer,SAMPLING<space>EVENT<space>IDENTIFIER,buffer,PROTOCOL<space>TYPE,buffer,PROTOCOL<space>CODE,buffer,PROJECT<space>CODE,buffer,DURATION<space>MINUTES,uint16,EFFORT<space>DISTANCE<space>KM,real32,EFFORT<space>AREA<space>HA,real64,NUMBER<space>OBSERVERS,uint8,ALL<space>SPECIES<space>REPORTED,uint8,GROUP<space>IDENTIFIER,buffer,HAS<space>MEDIA,uint8,APPROVED,uint8,REVIEWED,uint8,REASON,buffer,TRIP<space>COMMENTS,buffer,SPECIES<space>COMMENTS,buffer,col46,buffer,common<space>name,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+FACTORY_DEF * RecorderFactory    FACTORY_NAME NullAttributeMapper_2_Output_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA COMMON<space>NAME,buffer,SCIENTIFIC<space>NAME,buffer,OBSERVATION<space>COUNT,buffer,COUNTY,buffer,LOCALITY,buffer,LATITUDE,real64,LONGITUDE,real64,OBSERVATION<space>DATE,buffer,SAMPLING<space>EVENT<space>IDENTIFIER,buffer,TRIP<space>COMMENTS,buffer,SPECIES<space>COMMENTS,buffer,common<space>name,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
-Tcl2 proc NullAttributeMapper_e31b04d3_37d7_4b75_a8d6_c7862925249c9_null_replacer { otherValue newValue regExp } {    set attrs [split {county latitude longitude observers species} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {DELETEATTR};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE CSV_CSV2_1    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_e31b04d3_37d7_4b75_a8d6_c7862925249c9_null_replacer {} {<Unused>} {}")
+Tcl2 proc NullAttributeMapper_d8f1306c_43bc_4556_afb5_ed8df622e57d0_null_replacer { otherValue newValue regExp } {    set attrs [split {county latitude longitude observers species} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} }          {             set results [FME_GetRegex $decodedRegExp $attrVal];             if {[llength [lindex $results 0]] > 0}             {                set act {DELETEATTR};             }          };      }      elseif {[string first {MISSINGATTR} {SETNULL}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE CSV_CSV2_1    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_d8f1306c_43bc_4556_afb5_ed8df622e57d0_null_replacer {} {<Unused>} {}")
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory    FACTORY_NAME TestFilter    INPUT  FEATURE_TYPE NullAttributeMapper_OUTPUT    OUTPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0
 FACTORY_DEF * TestFactory FACTORY_NAME TestFilter_Condition_1 INPUT FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_0 TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>count<closeparen>,TestFilter) TYPE NUM ENCODED BOOLEAN_OPERATOR AND COMPOSITE_TEST_EXPR "1" FEATURE_TABLE_SHIM_SUPPORT Yes PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT PASSED FEATURE_TYPE TestFilter_<at>Value<openparen>count<closeparen><space>TYPE<space>NUM OUTPUT FAILED FEATURE_TYPE TestFilter_TESTFILTERINPUTLINE_1
@@ -3097,8 +3015,8 @@ FACTORY_DEF * RecorderFactory    FACTORY_NAME TestFilter__Unfiltered__Recorder  
 # -------------------------------------------------------------------------
 DEFAULT_MACRO DateTimeConverter_EXPRESSION_LIST
 INCLUDE [    set repairInput {};    if {{YES} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {%m<solidus>%d<solidus>%Y<dollar>} ne {} } {       set inFormat {%m<solidus>%d<solidus>%Y<dollar>};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {%Y-%m-%d};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set attrs {arrival_da departure_};    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;    };    puts "MACRO DateTimeConverter_EXPRESSION_LIST [join $parmList { }]"; ]
-Tcl2 proc DateTimeConverter_ca671e1a_64b8_4e8a_8a6b_a7f78cfcaa229_DateTimeConverter {} {    set attrs {arrival_da departure_};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_EXPRESSION_LIST) DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE TestFilter_<at>Value<openparen>count<closeparen><space>TYPE<space>NUM    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_ca671e1a_64b8_4e8a_8a6b_a7f78cfcaa229_DateTimeConverter)
+Tcl2 proc DateTimeConverter_180402fa_1ef9_4f42_b00c_8ea5c29a40670_DateTimeConverter {} {    set attrs {arrival_da departure_};    set decodedAttrs {};    set attrVals {};    set attrNulls {};    set attrMissings {};    foreach attr $attrs {       set decodedAttr [FME_DecodeText $attr];       lappend decodedAttrs $decodedAttr;       lappend attrVals [FME_GetAttribute $decodedAttr];       lappend attrNulls [FME_IsAttributeNull $decodedAttr];       lappend attrExists [FME_AttributeExists $decodedAttr];    };    FME_Execute EvaluateExpression ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV $(DateTimeConverter_EXPRESSION_LIST) DateTimeConverter;    foreach attr $decodedAttrs oldAttrVal $attrVals oldAttrExists $attrExists oldAttrNull $attrNulls {       set newAttrVal [FME_GetAttribute $attr];       if {[string length $newAttrVal] == 0} {          if {{NO} eq {NO} || [string length $oldAttrVal] > 0} {             FME_SetAttribute fme_rejection_code "INVALID_INPUT";             break;          } elseif {!$oldAttrExists} {             FME_UnsetAttributes $attr;          } elseif {!$oldAttrNull} {             FME_SetAttribute $attr {};          };       }    }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE TestFilter_<at>Value<openparen>count<closeparen><space>TYPE<space>NUM    OUTPUT FEATURE_TYPE ___TOREJECTOR___       @RenameAttributes(FME_STRICT, ___fme_rejection_code___,fme_rejection_code)       @Tcl2(DateTimeConverter_180402fa_1ef9_4f42_b00c_8ea5c29a40670_DateTimeConverter)
 FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_Rejector    INPUT FEATURE_TYPE ___TOREJECTOR___    TEST @Value(fme_rejection_code) != ""    FEATURE_TABLE_SHIM_SUPPORT Yes    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_<REJECTED>       @RemoveAttributes(___fme_rejection_code___)    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_OUTPUT       @RenameAttributes(FME_STRICT, fme_rejection_code,___fme_rejection_code___)
 # -------------------------------------------------------------------------
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
@@ -3115,7 +3033,7 @@ DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 FACTORY_DEF * RecorderFactory    FACTORY_NAME DateTimeConverter__Rejected__Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    NORMALIZE_LIST_ATTRIBUTES_ON_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA agol_City,buffer,agol_Subre,buffer,agol_Match,buffer,agol_Score,real32,species,buffer,count,buffer,location,buffer,county,buffer,arrival_da,buffer,departure_,buffer,observers,buffer,longitude,real64,latitude,real64,fme_rejection_code,buffer    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC NullAttributeMapper_2_OUTPUT_0_3SMz861nVvU= TO CSV2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ebird_formatted<closeparen> GEOMETRY    ROUTE FME_GENERIC DateTimeConverter_OUTPUT TO CSV2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>MARC_Formatted<closeparen> GEOMETRY    ROUTE FME_GENERIC NullAttributeMapper_2_OUTPUT_2_a/0loijY2kc= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>common_name<comma>common<lt>space<gt>name<comma>latitude<comma>LATITUDE<comma>longitude<comma>LONGITUDE<closeparen>,multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ebird_2<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC NullAttributeMapper_2_OUTPUT_2_a/0loijY2kc= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>common_name<comma>COMMON<lt>space<gt>NAME<comma>scientific_name<comma>SCIENTIFIC<lt>space<gt>NAME<comma>observation_count<comma>OBSERVATION<lt>space<gt>COUNT<comma>county<comma>COUNTY<comma>locality<comma>LOCALITY<comma>latitude<comma>LATITUDE<comma>longitude<comma>LONGITUDE<comma>observation_date<comma>OBSERVATION<lt>space<gt>DATE<comma>sampling_event_identifier<comma>SAMPLING<lt>space<gt>EVENT<lt>space<gt>IDENTIFIER<comma>trip_comments<comma>TRIP<lt>space<gt>COMMENTS<comma>species_comments<comma>SPECIES<lt>space<gt>COMMENTS<comma>common_name00<comma>common<lt>space<gt>name<closeparen>,multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ebird_2<closeparen> GEOMETRY    ROUTE FME_GENERIC DateTimeConverter_OUTPUT TO CSV2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>MARC_Formatted<closeparen> GEOMETRY    ROUTE FME_GENERIC NullAttributeMapper_2_OUTPUT_0_3SMz861nVvU= TO CSV2 __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>ebird_formatted<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -3126,8 +3044,8 @@ DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
 FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
 FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
-CSV2_4_DEF MARC_Formatted   csv_existing_file_handling   Yes   csv_write_field_names        firstrow   agol_City                    string   agol_Subre                   string   agol_Match                   string   agol_Score                   real32   species                      string   count                        string   location                     string   county                       string   arrival_da                   string   departure_                   string   observers                    string   longitude                    x_coordinate   latitude                     y_coordinate
+CSV2_3_DEF MARC_Formatted   csv_existing_file_handling   Yes   csv_write_field_names        firstrow   agol_City                    string   agol_Subre                   string   agol_Match                   string   agol_Score                   real32   species                      string   count                        string   location                     string   county                       string   arrival_da                   string   departure_                   string   observers                    string   longitude                    x_coordinate   latitude                     y_coordinate
 # -------------------------------------------------------------------------
-CSV2_5_DEF ebird_formatted   csv_existing_file_handling   Yes   csv_write_field_names        firstrow   "COMMON NAME"                string   "SCIENTIFIC NAME"            string   "OBSERVATION COUNT"          string   STATE                        string   COUNTY                       string   LOCALITY                     string   LATITUDE                     y_coordinate   LONGITUDE                    x_coordinate   "OBSERVATION DATE"           string   "OBSERVER ID"                string
+CSV2_4_DEF ebird_formatted   csv_existing_file_handling   Yes   csv_write_field_names        firstrow   "COMMON NAME"                string   "SCIENTIFIC NAME"            string   "OBSERVATION COUNT"          string   COUNTY                       string   LOCALITY                     string   LATITUDE                     y_coordinate   LONGITUDE                    x_coordinate   "OBSERVATION DATE"           string
 # -------------------------------------------------------------------------
-POSTGIS_3_DEF ebird_2   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   postgis_create_gist_index    YES   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   global_unique_identifier     text   last_edited_date             text   taxonomic_order              int4   category                     text   common_name                  text   scientific_name              text   subspecies_common_name       text   subspecies_scientific_name   text   observation_count            text   breeding_bird_atlas_code     text   breeding_bird_atlas_category text   age_sex                      text   country                      text   country_code                 text   state                        text   state_code                   text   county                       text   county_code                  text   iba_code                     text   bcr_code                     int2   usfws_code                   text   atlas_block                  text   locality                     text   locality_id                  text   locality_type                text   latitude                     float8   longitude                    float8   observation_date             text   time_observations_started    text   observer_id                  text   sampling_event_identifier    text   protocol_type                text   protocol_code                text   project_code                 text   duration_minutes             int4   effort_distance_km           float4   effort_area_ha               float8   number_observers             int2   all_species_reported         int2   group_identifier             text   has_media                    int2   approved                     int2   reviewed                     int2   reason                       text   trip_comments                text   species_comments             text   col46                        text   common_name00                text
+POSTGIS_2_DEF ebird_2   postgis_type                 postgis_geometry   postgis_mode                 ""   postgis_sql_key_columns      ""   postgis_drop_table           ""   postgis_truncate_table       ""   fme_feature_operation        INSERT   fme_table_handling           CREATE_IF_MISSING   postgis_create_gist_index    YES   postgis_spatial_column_type  geometry   postgis_spatial_column       geom   postgis_srid                 ""   postgis_vacuum_analyze       NO   postgis_allow_serial_writing NO   common_name                  text   scientific_name              text   observation_count            text   county                       text   locality                     text   latitude                     float8   longitude                    float8   observation_date             text   sampling_event_identifier    text   trip_comments                text   species_comments             text   common_name00                text
